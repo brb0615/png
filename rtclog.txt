@@ -1,0 +1,1356 @@
+INFO    ( 2:41:23:709 |  526)   8669; [dns] parsed ip 119.9.116.105
+INFO    ( 2:41:23:723 |   14)   8669; [dns] parsed ip 23.253.229.83
+INFO    ( 2:41:36:524 |    0)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:41:36:902 |  378)   8086; Attach external video source to pipeline
+INFO    ( 2:41:36:905 |    3)   8669; [rp] {"che.audio.set_capture_raw_audio_format":{"sampleRate":44100,"channelCnt":1,"mode":0,"samplesPerCall":1024}}
+INFO    ( 2:41:36:906 |    1)   8669; [rp] {"che.video.enableRemoteViewMirror":true}
+INFO    ( 2:41:36:951 |   45)   8086; API call to join channel '03833b62-1dd8-4001-a06d-986c0cc044b3' uid 10341022, SDK ver 1.14.0 build 210, device info 'zte/z717vl/z717vl/lavender/22/3.10.49-g75d3f9e'
+INFO    ( 2:41:36:954 |    3)   8669; ***CALL BEGIN: appid:'d6****************************07' cname:'03833b62-1dd8-4001-a06d-986c0cc044b3' info:'' sid:'7C403A5300B24CAB9AF4E60809760A82'
+INFO    ( 2:41:36:954 |    0)   8669; addRef of media engine, ref=1
+INFO    ( 2:41:36:958 |    4)   8669; [che] create chat engine, ctx:0x8e9a0b74
+INFO    ( 2:41:36:962 |    4)   8669; use android device recording
+INFO    ( 2:41:36:969 |    7)   8669; [MYDEBUG] large group call false
+INFO    ( 2:41:36:969 |    0)   8669; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    ( 2:41:36:969 |    0)   8669; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    ( 2:41:37: 14 |    0)   8669; output: kPlatformDefaultAudio
+INFO    ( 2:41:37: 33 |   19)   8669;   OS info: Android
+INFO    ( 2:41:37: 75 |   42)   8669; [JNI] use profiled sampling rate : 16000
+INFO    ( 2:41:37: 77 |    2)   9016; Thread with name:jni_audio_capture_thread started 
+INFO    ( 2:41:37: 77 |    0)   9017; Thread with name:jni_audio_render_thread started 
+INFO    ( 2:41:37: 78 |    1)   8669; [JNI] playback device is set to 0
+INFO    ( 2:41:37: 78 |    0)   8669; [JNI] recording device is set to 0
+INFO    ( 2:41:37: 78 |    0)   8669; Set stereo playback available = 0
+INFO    ( 2:41:37: 78 |    0)   8669; StereoPlayoutIsAvailable(), output: available=0
+INFO    ( 2:41:37: 78 |    0)   8669; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 2:41:37: 80 |    2)   8669; setMuteStatus, muted: Off
+INFO    ( 2:41:37: 80 |    0)   8669; setMuteOutput, muted: false
+WARN    ( 2:41:37: 80 |    0)   8669; setMicSensitivity failed, legal values are between [0, 10]
+INFO    ( 2:41:37: 80 |    0)   8669; Audio Engine Init success
+INFO    ( 2:41:37: 81 |    1)   9018; Thread with name:EngineMonitorThread started 
+INFO    ( 2:41:37:134 |   53)   8669; [MediaCodecVideoEncoder] Found candidate encoder OMX.qcom.video.encoder.avc
+INFO    ( 2:41:37:157 |   23)   8669; Available number of cores:4
+INFO    ( 2:41:37:158 |    1)   8669; init: feature prerotation disabled
+INFO    ( 2:41:37:158 |    0)   8669; init: no custom rotation
+INFO    ( 2:41:37:405 |  247)   8669; Agora Engine video codec set to custom mode role mode 0
+INFO    ( 2:41:37:405 |    0)   8669; Agora Engine video codec index 1
+INFO    ( 2:41:37:405 |    0)   8669; Agora Engine video stream type = 0
+INFO    ( 2:41:37:408 |    3)   9057; Thread with name:VideoEncodeThread started 
+INFO    ( 2:41:37:408 |    0)   8669; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 2:41:37:408 |    0)   8669; h264WebInteropEnable: enable 0
+INFO    ( 2:41:37:408 |    0)   8669; setMaxVideoBitrate: max bitrate=0
+INFO    ( 2:41:37:408 |    0)   8669; more fec enable 0
+INFO    ( 2:41:37:409 |    1)   8669; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 2:41:37:409 |    0)   8669; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 2:41:37:410 |    1)   9058; Thread with name:VideoProcessThread started 
+INFO    ( 2:41:37:430 |   20)   8669; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 2:41:37:430 |    0)   8669; setCodecRates: set frame rate to 15
+INFO    ( 2:41:37:430 |    0)   8669; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 2:41:37:430 |    0)   8669; setCodecResolution: set to 640 x 480
+INFO    ( 2:41:37:430 |    0)   8669; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 2:41:37:434 |    4)   9057; Thread with name:VideoEncodeThread stopped
+INFO    ( 2:41:37:441 |    7)   8669; [che] chat engine initialized
+INFO    ( 2:41:37:441 |    0)   9059; Thread with name:VideoEncodeThread started 
+INFO    ( 2:41:37:443 |    2)   8669; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    ( 2:41:37:443 |    0)   8669; [tactics] parse config for beckon error for tactics size:15
+INFO    ( 2:41:37:448 |    5)   8669; [vocs] vocs initialized
+WARN    ( 2:41:37:451 |    3)   8669; bind error: Permission denied
+INFO    ( 2:41:37:452 |    1)   8669; CacheManager: save cache to storage elapsed 1
+INFO    ( 2:41:37:452 |    0)   8669; [cm] emit join channel signal, size=3
+INFO    ( 2:41:37:457 |    5)   8669; CacheManager: save cache to storage elapsed 0
+INFO    ( 2:41:37:457 |    0)   8669; [rs] report server ip: 223.111.12.227:8000
+INFO    ( 2:41:37:459 |    2)   8669; [rlbs] selected: 221.228.78.123:9700
+INFO    ( 2:41:37:459 |    0)   8669; [rlbs] request rs list from 221.228.78.123:9700.......
+INFO    ( 2:41:37:460 |    1)   8669; [vocs] lookup channel...
+INFO    ( 2:41:37:460 |    0)   8669; [vocs] selected: 221.228.202.134:8000
+INFO    ( 2:41:37:462 |    2)   8669; connecting to 221.228.202.134:8000 handle b789ce80, 227
+INFO    ( 2:41:37:463 |    1)   8669; [vocs] creating channel with 221.228.202.134:8000, ts 1513496497462.......
+INFO    ( 2:41:37:463 |    0)   8669; [vocs] selected: 69.28.51.138:8000
+INFO    ( 2:41:37:463 |    0)   8669; [vocs] creating channel with 69.28.51.138:8000, ts 1513496497463.......
+INFO    ( 2:41:37:463 |    0)   8669; [vocs] selected: 183.236.26.162:8000
+INFO    ( 2:41:37:463 |    0)   8669; [vocs] creating channel with 183.236.26.162:8000, ts 1513496497463.......
+INFO    ( 2:41:37:465 |    2)   8669; [rp] {"che.video.local.rotate_video":{"degree":270,"rotation":0}}
+INFO    ( 2:41:37:579 |  114)   8669; [vocs/u] **responsed from 69.28.51.138:8000, 3 vos, elapsed 628, server ts 1513496497717, wan ip 71.241.215.78
+INFO    ( 2:41:37:579 |    0)   8669; [vos] added server: 69.172.244.39:4001
+INFO    ( 2:41:37:579 |    0)   8669; [vos] added server: 107.155.14.139:4009
+INFO    ( 2:41:37:579 |    0)   8669; [vos] added server: 23.236.120.143:4007
+INFO    ( 2:41:37:580 |    1)   8669; [ch0] vos initialized
+INFO    ( 2:41:37:580 |    0)   8669; [vos] selected: 23.236.120.143:4007
+INFO    ( 2:41:37:580 |    0)   8669; [ds]: ver 1 ds '{"streamType":5}'
+INFO    ( 2:41:37:580 |    0)   8669; [ch0] Login VOS (proto:8, cid:591882541, uid:10341022, ts:1513496497580, ticket size:120 ds:1 stream:+A+VH) 2: 23.236.120.143:4007
+INFO    ( 2:41:37:626 |   46)   8669; [ch0] **VOS response to login request (res 0 elapsed 675, server ts 1513496497796, s-c:170) from 23.236.120.143:4007
+INFO    ( 2:41:37:627 |    1)   8669; [che] start call begins
+INFO    ( 2:41:37:627 |    0)   8669; Set Application Mode in RTC Engine to No. 0
+INFO    ( 2:41:37:627 |    0)   8669; Set Application Mode details solo 0, extend 0, audience 0, br 128000, streamType 0
+INFO    ( 2:41:37:627 |    0)   8669; SetCodec by type : No. 85
+WARN    ( 2:41:37:630 |    3)   8669; SetRecordingChannel() unable to set the recording channel (error=10028)
+INFO    ( 2:41:37:630 |    0)   8669; [JNI] recording device is set to 7
+INFO    ( 2:41:37:630 |    0)   8669; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 2:41:37:630 |    0)   8669; SetRecordingDevicePart2:SetStereoRecording, stereo recording=0
+INFO    ( 2:41:37:630 |    0)   8669; [JNI] audioMode is set to 3
+INFO    ( 2:41:37:632 |    2)   8086; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 2:41:37:633 |    1)   8086; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 2:41:37:693 |   60)   8669; [JNI] playback sample rate is set to (16000)
+INFO    ( 2:41:37:697 |    4)   8669; StartPlayout complete
+INFO    ( 2:41:37:697 |    0)   8669; output: NOT_SUPPORTED
+ERROR   ( 2:41:37:729 |   32)   8669; [AudioDevice Java] AcousticEchoCanceler.getEnabled: false
+INFO    ( 2:41:37:729 |    0)   8669; [JNI] recording sample rate is set to (16000)
+INFO    ( 2:41:37:744 |   15)   8669; StartRecording complete
+INFO    ( 2:41:37:747 |    3)   8669; SetHowlingControl enable = 1
+INFO    ( 2:41:37:747 |    0)   8669; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 2:41:37:747 |    0)   8669; MID = 69, Routing = 3
+INFO    ( 2:41:37:747 |    0)   8669; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 2:41:37:747 |    0)   8669; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 2:41:37:758 |   11)   8668; [AudioRoute] reset audio routing, default routing: Speakerphone, current routing: Default, target routing: Speakerphone, actual system routing: Speakerphone
+INFO    ( 2:41:37:758 |    0)   8668; [AudioRoute] set audio output routing from Default to Speakerphone
+INFO    ( 2:41:37:764 |    6)   8668; [AudioRoute] audio routing changed to Speakerphone
+INFO    ( 2:41:37:765 |    1)   8668; [AudioRoute] Monitor start: default routing: Speakerphone, current routing: Speakerphone
+INFO    ( 2:41:37:766 |    1)   8669; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 2:41:37:766 |    0)   8669; setCodecRates: set frame rate to 15
+INFO    ( 2:41:37:766 |    0)   8669; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 2:41:37:766 |    0)   8669; setCodecResolution: set to 640 x 480
+INFO    ( 2:41:37:783 |   17)   8669; Use external video source
+ERROR   ( 2:41:37:783 |    0)   8669; Assert external camera failed! Force using 1025
+INFO    ( 2:41:37:783 |    0)   8669; Create participant 0
+INFO    ( 2:41:37:783 |    0)   8669; startCapture: device? 1025 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    ( 2:41:37:783 |    0)   9069; Thread with name:ViECaptureThread started 
+INFO    ( 2:41:37:783 |    0)   8669; startCapture: startCapture success
+INFO    ( 2:41:37:783 |    0)   8669; EnableLowBitRateStream: dual streams enabled 0
+INFO    ( 2:41:37:783 |    0)   8669; RequestEncodeKeyFrame
+INFO    ( 2:41:37:783 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:41:37:783 |    0)   8669; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 2:41:37:784 |    1)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:41:37:784 |    0)   8669; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 2:41:37:784 |    0)   8669; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+INFO    ( 2:41:37:784 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:41:37:784 |    0)   8669; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 2:41:37:784 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:41:37:784 |    0)   8669; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 2:41:37:784 |    0)   8669; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+ERROR   ( 2:41:37:784 |    0)   8669; [che] Unable to start render local video, res=-1
+INFO    ( 2:41:37:784 |    0)   8669; [che] start call returns -1, elapsed 157
+ERROR   ( 2:41:37:784 |    0)   8669; [che] error calling startCall()
+INFO    ( 2:41:37:784 |    0)   8669; join channel success: cname '03833b62-1dd8-4001-a06d-986c0cc044b3' uid 10341022 elapsed 833
+INFO    ( 2:41:37:785 |    1)   8669; [rp] {"che.audio.output.routing":3}
+INFO    ( 2:41:37:785 |    0)   8669; SetHowlingControl enable = 1
+INFO    ( 2:41:37:785 |    0)   8669; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 2:41:37:785 |    0)   8669; MID = 69, Routing = 3
+INFO    ( 2:41:37:785 |    0)   8669; [vocs/u] **responsed from 183.236.26.162:8000, 3 vos, elapsed 834, server ts 1513496497824, wan ip 71.241.215.78
+INFO    ( 2:41:37:785 |    0)   8669; [vos] added server: 69.172.244.38:4003
+INFO    ( 2:41:37:786 |    1)   8669; [vos] added server: 107.155.14.138:4003
+INFO    ( 2:41:37:802 |   16)   8669; [rlbs/u] responsed from 221.228.78.123:9700 with servers 69.28.51.141:8000
+INFO    ( 2:41:37:827 |   25)   8669; [ch0] rtt: 43
+INFO    ( 2:41:37:859 |   32)   8669; [vocs/u] **responsed from 221.228.202.134:8000, 3 vos, elapsed 908, server ts 1513496497928, wan ip 71.241.215.78
+INFO    ( 2:41:37:859 |    0)   8669; [vos] added server: 69.172.244.40:4002
+INFO    ( 2:41:37:860 |    1)   8669; [vos] added server: 107.155.14.138:4004
+INFO    ( 2:41:37:860 |    0)   8669; [vos] added server: 23.236.120.143:4006
+INFO    ( 2:41:37:860 |    0)   8669; [vocs/u] **responsed from 221.228.202.134:8000, 3 vos, elapsed 909, server ts 1513496497928, wan ip 71.241.215.78
+INFO    ( 2:41:37:860 |    0)   8669; [vos] added server: 69.172.244.37:4003
+INFO    ( 2:41:37:860 |    0)   8669; [vos] added server: 107.155.14.131:4004
+INFO    ( 2:41:37:945 |   85)   8669; onFirstLocalAudioFrame codec 85 elapsed 994
+INFO    ( 2:41:38: 25 |    0)   8669; [rp] {"rtc.video.preview":false}
+ERROR   ( 2:41:38: 26 |    1)   8669; API call failed to stop video preview due to not in idle mode
+INFO    ( 2:41:38: 44 |   18)   8086; [AudioRoute] Monitor stopped
+INFO    ( 2:41:38: 44 |    0)   8086; API call to leave channel
+INFO    ( 2:41:38: 45 |    1)   8669; [cm] emit leave channel signal
+INFO    ( 2:41:38:370 |  325)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+WARN    ( 2:41:38:370 |    0)   8669; DeregisterFrameCallback 0x0xb7898fec not found
+INFO    ( 2:41:38:370 |    0)   9069; Thread with name:ViECaptureThread stopped
+INFO    ( 2:41:38:380 |   10)   8669; stopCapture: stopCapture success
+INFO    ( 2:41:38:380 |    0)   8669; stopRemoteRender
+INFO    ( 2:41:38:380 |    0)   8669; [che] stopCall begins
+INFO    ( 2:41:38:420 |   40)   8669; StopRecording complete
+INFO    ( 2:41:38:481 |   61)   8669; StopPlayout complete
+INFO    ( 2:41:38:481 |    0)   8669; [JNI] audioMode is set to 0
+INFO    ( 2:41:38:590 |  109)   8669; [che] stop call returns 0, elapsed 210
+INFO    ( 2:41:38:590 |    0)   8669; [rs] **report stats: seq: 10, report list size 10, tx/rx: 2015/48, cache size: 0, report success rate: -1
+INFO    ( 2:41:38:591 |    1)   8669; **CALL STATS: duration 1s, tx 3.785K bytes, rx 2.550K bytes, total 6.311K bytes
+INFO    ( 2:41:38:592 |    1)   8669; CacheManager: save cache to storage elapsed 0
+INFO    ( 2:41:38:593 |    1)   8669; [ch0] vos destroyed
+INFO    ( 2:41:38:593 |    0)   8669; delRef of media engine, ref=0
+INFO    ( 2:41:38:593 |    0)   8669; [che] chat engine destroying
+INFO    ( 2:41:38:593 |    0)   8669; stopLocalRender: Cannot stop renderer -1 (not exist)
+WARN    ( 2:41:38:593 |    0)   8669; stopCapture: VideoEngine haven't startCapture
+INFO    ( 2:41:38:593 |    0)   8669; stopRemoteRender
+INFO    ( 2:41:38:593 |    0)   8669; [che] stopCall begins
+INFO    ( 2:41:38:594 |    1)   8669; [che] stop call returns -1, elapsed 0
+INFO    ( 2:41:38:594 |    0)   8669; stopLocalRender: Cannot stop renderer -1 (not exist)
+INFO    ( 2:41:38:594 |    0)   8669; stopRemoteRender
+WARN    ( 2:41:38:594 |    0)   8669; stopCapture: VideoEngine haven't startCapture
+INFO    ( 2:41:38:594 |    0)   9058; Thread with name:VideoProcessThread stopped
+WARN    ( 2:41:38:604 |   10)   8669; terminate: VideoEngine haven't init
+INFO    ( 2:41:38:604 |    0)   8669; [DEBUGG] ViERenderManager Destructor, engine_id: 0
+INFO    ( 2:41:38:606 |    2)   9059; Thread with name:VideoEncodeThread stopped
+INFO    ( 2:41:38:616 |   10)   9018; Thread with name:EngineMonitorThread stopped
+INFO    ( 2:41:38:626 |   10)   9016; Thread with name:jni_audio_capture_thread stopped
+INFO    ( 2:41:38:628 |    2)   9017; Thread with name:jni_audio_render_thread stopped
+INFO    ( 2:41:38:630 |    2)   8669; SetAndroidObjects: JVM is NULL, assuming deinit
+INFO    ( 2:41:38:634 |    4)   8669; [che] chat engine destroyed
+INFO    ( 2:41:38:634 |    0)   8669; ***CALL END
+INFO    ( 2:41:38:636 |    2)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:41:38:639 |    3)   8669; [rp] {"rtc.video.preview":false}
+INFO    ( 2:41:38:639 |    0)   8669; API call to stop video preview
+INFO    ( 2:41:41:955 |  316)   8669; [rs] **report stats: seq: 10, report list size 10, tx/rx: 2015/288, cache size: 0, report success rate: -1
+INFO    ( 2:41:42: 61 |    0)   8669; [dns] parsed ip 69.28.51.141
+INFO    ( 2:41:42: 61 |    0)   8669; [rs] dns parse result code: 0, servers size: 1
+INFO    ( 2:41:46:196 |  135)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:41:47:727 |  531)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:41:51:957 |  230)   8669; [rs] dns parse retry time: 1
+INFO    ( 2:41:53:535 |    0)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:41:53:541 |    6)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:41:54:879 |  338)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:41:56:572 |    0)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:42: 3:683 |  111)   8669; [ps] error received, versionPolicyRequest, err 14
+INFO    ( 2:42: 3:683 |    0)   8669; [ps] udpate priority: 4
+INFO    ( 2:42: 3:684 |    1)   8669; [ps] error received, deviceIndexRequest, err 14
+INFO    ( 2:42: 3:684 |    0)   8669; [ps] error received, globalPolicyRequest, err 14
+INFO    ( 2:42: 3:684 |    0)   8669; [ps] udpate priority: 1
+INFO    ( 2:42: 3:684 |    0)   8669; [ps] error received, vendorPolicyRequest, err 14
+INFO    ( 2:42: 3:685 |    1)   8669; [ps] udpate priority: 3
+INFO    ( 2:42: 6:185 |    0)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:42: 6:297 |  112)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:42: 6:954 |  657)   8669; [rs] dns parse retry time: 2
+INFO    ( 2:42: 9:291 |    0)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:42:13:175 |    0)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:42:13:179 |    4)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:42:16:184 |    5)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:42:16:952 |  768)   8669; [rs] **report stats: seq: 10, report list size 10, tx/rx: 3303/720, cache size: 0, report success rate: 100
+INFO    ( 2:42:21:957 |    5)   8669; [rs] dns parse retry time: 3
+INFO    ( 2:42:46:967 |   10)   8669; [rs] **report stats: seq: 10, report list size 10, tx/rx: 3303/720, cache size: 0, report success rate: 100
+INFO    ( 2:42:50:677 |    0)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:42:53:126 |    0)   8086; Attach external video source to pipeline
+INFO    ( 2:42:53:129 |    3)   8669; [rp] {"che.audio.set_capture_raw_audio_format":{"sampleRate":44100,"channelCnt":1,"mode":0,"samplesPerCall":1024}}
+INFO    ( 2:42:53:131 |    2)   8669; [rp] {"che.video.enableRemoteViewMirror":true}
+INFO    ( 2:42:53:167 |   36)   8086; API call to join channel 'd067660b-3a92-450a-a92b-f60ab14c64ec' uid 10341022, SDK ver 1.14.0 build 210, device info 'zte/z717vl/z717vl/lavender/22/3.10.49-g75d3f9e'
+INFO    ( 2:42:53:192 |   25)   8669; ***CALL BEGIN: appid:'d6****************************07' cname:'d067660b-3a92-450a-a92b-f60ab14c64ec' info:'' sid:'10326764B5EC4954896BA3698F9926AE'
+INFO    ( 2:42:53:192 |    0)   8669; addRef of media engine, ref=1
+INFO    ( 2:42:53:193 |    1)   8669; [che] create chat engine, ctx:0x8e9a0b74
+INFO    ( 2:42:53:198 |    5)   8669; use android device recording
+INFO    ( 2:42:53:259 |   61)   8669; [MYDEBUG] large group call false
+INFO    ( 2:42:53:259 |    0)   8669; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    ( 2:42:53:259 |    0)   8669; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    ( 2:42:53:294 |   35)   8669; output: kPlatformDefaultAudio
+INFO    ( 2:42:53:316 |   22)   8669;   OS info: Android
+INFO    ( 2:42:53:329 |   13)   8669; [JNI] use profiled sampling rate : 16000
+INFO    ( 2:42:53:332 |    3)   9980; Thread with name:jni_audio_capture_thread started 
+INFO    ( 2:42:53:332 |    0)   8669; [JNI] playback device is set to 0
+INFO    ( 2:42:53:332 |    0)   8669; [JNI] recording device is set to 0
+INFO    ( 2:42:53:332 |    0)   8669; Set stereo playback available = 0
+INFO    ( 2:42:53:332 |    0)   8669; StereoPlayoutIsAvailable(), output: available=0
+INFO    ( 2:42:53:332 |    0)   8669; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 2:42:53:333 |    1)   9981; Thread with name:jni_audio_render_thread started 
+INFO    ( 2:42:53:334 |    1)   8669; setMuteStatus, muted: Off
+INFO    ( 2:42:53:334 |    0)   8669; setMuteOutput, muted: false
+WARN    ( 2:42:53:334 |    0)   8669; setMicSensitivity failed, legal values are between [0, 10]
+INFO    ( 2:42:53:334 |    0)   8669; Audio Engine Init success
+INFO    ( 2:42:53:334 |    0)   9982; Thread with name:EngineMonitorThread started 
+INFO    ( 2:42:53:379 |   45)   8669; [MediaCodecVideoEncoder] Found candidate encoder OMX.qcom.video.encoder.avc
+INFO    ( 2:42:53:539 |  160)   8669; init: feature prerotation disabled
+INFO    ( 2:42:53:539 |    0)   8669; init: no custom rotation
+INFO    ( 2:42:53:539 |    0)   8669; Agora Engine video codec set to custom mode role mode 0
+INFO    ( 2:42:53:539 |    0)   8669; Agora Engine video codec index 1
+INFO    ( 2:42:53:540 |    1)   8669; Agora Engine video stream type = 0
+INFO    ( 2:42:53:546 |    6)   9999; Thread with name:VideoEncodeThread started 
+INFO    ( 2:42:53:546 |    0)   8669; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 2:42:53:546 |    0)   8669; h264WebInteropEnable: enable 0
+INFO    ( 2:42:53:546 |    0)   8669; setMaxVideoBitrate: max bitrate=0
+INFO    ( 2:42:53:546 |    0)   8669; more fec enable 0
+INFO    ( 2:42:53:546 |    0)   8669; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 2:42:53:546 |    0)   8669; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 2:42:53:546 |    0)   8669; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 2:42:53:546 |    0)   8669; setCodecRates: set frame rate to 15
+INFO    ( 2:42:53:546 |    0)   8669; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 2:42:53:547 |    1)   8669; setCodecResolution: set to 640 x 480
+INFO    ( 2:42:53:547 |    0)   8669; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 2:42:53:547 |    0)  10000; Thread with name:VideoProcessThread started 
+INFO    ( 2:42:53:551 |    4)   9999; Thread with name:VideoEncodeThread stopped
+INFO    ( 2:42:53:560 |    9)   8669; [che] chat engine initialized
+INFO    ( 2:42:53:561 |    1)  10004; Thread with name:VideoEncodeThread started 
+INFO    ( 2:42:53:563 |    2)   8669; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    ( 2:42:53:563 |    0)   8669; [tactics] parse config for beckon error for tactics size:15
+INFO    ( 2:42:53:568 |    5)   8669; [vocs] vocs initialized
+WARN    ( 2:42:53:574 |    6)   8669; bind error: Permission denied
+INFO    ( 2:42:53:577 |    3)   8669; CacheManager: save cache to storage elapsed 1
+INFO    ( 2:42:53:577 |    0)   8669; [cm] emit join channel signal, size=3
+INFO    ( 2:42:53:580 |    3)   8669; [vocs] lookup channel...
+INFO    ( 2:42:53:580 |    0)   8669; [vocs] selected: 119.9.92.49:8000
+INFO    ( 2:42:53:582 |    2)   8669; connecting to 119.9.92.49:8000 handle b7461a28, 227
+INFO    ( 2:42:53:582 |    0)   8669; [vocs] creating channel with 119.9.92.49:8000, ts 1513496573582.......
+INFO    ( 2:42:53:582 |    0)   8669; [vocs] selected: 183.236.26.162:8000
+INFO    ( 2:42:53:582 |    0)   8669; [vocs] creating channel with 183.236.26.162:8000, ts 1513496573582.......
+INFO    ( 2:42:53:583 |    1)   8669; [vocs] selected: 123.155.153.69:8000
+INFO    ( 2:42:53:583 |    0)   8669; [vocs] creating channel with 123.155.153.69:8000, ts 1513496573583.......
+INFO    ( 2:42:53:833 |  250)   8669; [vocs/t] tcp create channel connected with 0xb7c3e068
+INFO    ( 2:42:53:833 |    0)   8669; [vocs] tcp - creating channel with 119.9.92.49:8000, ts 1513496573833.......
+INFO    ( 2:42:53:835 |    2)   8669; [vocs/u] **responsed from 119.9.92.49:8000, 3 vos, elapsed 667, server ts 1513496573910, wan ip 71.241.215.78
+INFO    ( 2:42:53:836 |    1)   8669; [vos] added server: 107.151.160.8:4004
+INFO    ( 2:42:53:836 |    0)   8669; [vos] added server: 69.172.244.37:4004
+INFO    ( 2:42:53:836 |    0)   8669; [vos] added server: 107.155.14.132:4003
+INFO    ( 2:42:53:836 |    0)   8669; [ch0] vos initialized
+INFO    ( 2:42:53:836 |    0)   8669; [vos] selected: 107.155.14.132:4003
+INFO    ( 2:42:53:837 |    1)   8669; [ds]: ver 1 ds '{"streamType":5}'
+INFO    ( 2:42:53:837 |    0)   8669; [ch0] Login VOS (proto:8, cid:3908486392, uid:10341022, ts:1513496573837, ticket size:120 ds:1 stream:+A+VH) 2: 107.155.14.132:4003
+INFO    ( 2:42:53:869 |   32)   8669; [vocs/u] **responsed from 123.155.153.69:8000, 3 vos, elapsed 701, server ts 1513496573892, wan ip 71.241.215.78
+INFO    ( 2:42:53:870 |    1)   8669; [vos] added server: 23.236.124.10:4001
+INFO    ( 2:42:53:870 |    0)   8669; [vos] added server: 69.172.244.37:4001
+INFO    ( 2:42:53:870 |    0)   8669; [vos] added server: 107.155.14.131:4009
+INFO    ( 2:42:53:889 |   19)   8669; [vocs/u] **responsed from 183.236.26.162:8000, 3 vos, elapsed 721, server ts 1513496573932, wan ip 71.241.215.78
+INFO    ( 2:42:53:889 |    0)   8669; [vos] added server: 23.236.124.10:4008
+INFO    ( 2:42:53:890 |    1)   8669; [vos] added server: 69.172.244.39:4003
+INFO    ( 2:42:53:890 |    0)   8669; [vos] added server: 107.155.14.139:4005
+INFO    ( 2:42:53:894 |    4)   8669; [ch0] **VOS response to login request (res 0 elapsed 726, server ts 1513496574054, s-c:160) from 107.155.14.132:4003
+INFO    ( 2:42:53:895 |    1)   8669; [che] start call begins
+INFO    ( 2:42:53:895 |    0)   8669; Set Application Mode in RTC Engine to No. 0
+INFO    ( 2:42:53:895 |    0)   8669; Set Application Mode details solo 0, extend 0, audience 0, br 128000, streamType 0
+INFO    ( 2:42:53:895 |    0)   8669; SetCodec by type : No. 85
+WARN    ( 2:42:53:902 |    7)   8669; SetRecordingChannel() unable to set the recording channel (error=10028)
+INFO    ( 2:42:53:902 |    0)   8669; [JNI] recording device is set to 7
+INFO    ( 2:42:53:902 |    0)   8669; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 2:42:53:902 |    0)   8669; SetRecordingDevicePart2:SetStereoRecording, stereo recording=0
+INFO    ( 2:42:53:902 |    0)   8669; [JNI] audioMode is set to 3
+INFO    ( 2:42:53:903 |    1)   8086; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 2:42:53:905 |    2)   8086; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 2:42:54:  6 |    0)   8669; [JNI] playback sample rate is set to (16000)
+INFO    ( 2:42:54: 18 |   12)   8669; StartPlayout complete
+INFO    ( 2:42:54: 19 |    1)   8669; output: NOT_SUPPORTED
+ERROR   ( 2:42:54: 83 |   64)   8669; [AudioDevice Java] AcousticEchoCanceler.getEnabled: false
+INFO    ( 2:42:54: 83 |    0)   8669; [JNI] recording sample rate is set to (16000)
+INFO    ( 2:42:54:111 |   28)   8669; StartRecording complete
+INFO    ( 2:42:54:115 |    4)   8669; SetHowlingControl enable = 1
+INFO    ( 2:42:54:115 |    0)   8669; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 2:42:54:115 |    0)   8669; MID = 69, Routing = 3
+INFO    ( 2:42:54:115 |    0)   8669; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 2:42:54:115 |    0)   8669; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 2:42:54:115 |    0)   8669; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 2:42:54:115 |    0)   8669; setCodecRates: set frame rate to 15
+INFO    ( 2:42:54:115 |    0)   8669; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 2:42:54:115 |    0)   8669; setCodecResolution: set to 640 x 480
+INFO    ( 2:42:54:115 |    0)   8669; Use external video source
+INFO    ( 2:42:54:115 |    0)   8669; startCapture: device? 1025 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    ( 2:42:54:116 |    1)   8669; startCapture: startCapture success
+INFO    ( 2:42:54:116 |    0)   8669; EnableLowBitRateStream: dual streams enabled 0
+INFO    ( 2:42:54:116 |    0)   8669; RequestEncodeKeyFrame
+INFO    ( 2:42:54:116 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:42:54:116 |    0)   8669; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 2:42:54:117 |    1)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:42:54:117 |    0)   8669; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 2:42:54:117 |    0)   8669; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+INFO    ( 2:42:54:117 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:42:54:117 |    0)   8669; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 2:42:54:117 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:42:54:117 |    0)   8669; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 2:42:54:117 |    0)   8669; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+ERROR   ( 2:42:54:117 |    0)   8669; [che] Unable to start render local video, res=-1
+INFO    ( 2:42:54:117 |    0)   8669; [che] start call returns -1, elapsed 222
+ERROR   ( 2:42:54:118 |    1)   8669; [che] error calling startCall()
+INFO    ( 2:42:54:118 |    0)   8669; join channel success: cname 'd067660b-3a92-450a-a92b-f60ab14c64ec' uid 10341022 elapsed 950
+INFO    ( 2:42:54:118 |    0)  10014; Thread with name:ViECaptureThread started 
+INFO    ( 2:42:54:122 |    4)   8668; [AudioRoute] reset audio routing, default routing: Speakerphone, current routing: Default, target routing: Speakerphone, actual system routing: Speakerphone
+INFO    ( 2:42:54:122 |    0)   8668; [AudioRoute] set audio output routing from Default to Speakerphone
+INFO    ( 2:42:54:124 |    2)   8668; [AudioRoute] audio routing changed to Speakerphone
+INFO    ( 2:42:54:124 |    0)   8668; [AudioRoute] Monitor start: default routing: Speakerphone, current routing: Speakerphone
+INFO    ( 2:42:54:124 |    0)   8199; [che] onVideoSizeChanged: uid 0 640x480 rotate 270
+INFO    ( 2:42:54:124 |    0)   8669; [rp] {"che.audio.output.routing":3}
+INFO    ( 2:42:54:127 |    3)   8669; SetHowlingControl enable = 1
+INFO    ( 2:42:54:127 |    0)   8669; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 2:42:54:127 |    0)   8669; MID = 69, Routing = 3
+INFO    ( 2:42:54:161 |   34)   8669; [pm] peer 10335330 is online
+INFO    ( 2:42:54:161 |    0)   8669; notifyPeerCount: cnt 1
+INFO    ( 2:42:54:162 |    1)   8669; onFirstRemoteAudioFrame uid 10335330 codec 85 elapsed 994
+INFO    ( 2:42:54:164 |    2)   8669; [rp] {"rtc.audio.mute_peer":{"uid":10335330,"mute":true}}
+INFO    ( 2:42:54:164 |    0)   8669; [pm] mute audio peer 10335330 muted true
+INFO    ( 2:42:54:164 |    0)   8669; [ds]: ver 2 ds '{"streamType":5,"peers":[[10335330,4]]}'
+INFO    ( 2:42:54:164 |    0)   8669; [ch0] sync (cid:3908486392, uid:10341022, sync:2): 107.155.14.132:4003
+INFO    ( 2:42:54:171 |    7)   8669; [ch0] rtt: 53
+INFO    ( 2:42:54:305 |  134)   8669; onFirstLocalAudioFrame codec 85 elapsed 1137
+INFO    ( 2:42:54:372 |   67)   8669; [ds]: ver 2 ds '{"streamType":5,"peers":[[10335330,4]]}'
+INFO    ( 2:42:54:372 |    0)   8669; [ch0] sync (cid:3908486392, uid:10341022, sync:2): 107.155.14.132:4003
+INFO    ( 2:42:54:408 |   36)   8086; API call to create data stream, id = 49153
+INFO    ( 2:42:54:413 |    5)   8669; [pm] peer 10335330 has enabled video
+INFO    ( 2:42:54:413 |    0)   8669; Create participant 10335330
+INFO    ( 2:42:54:413 |    0)   8669; Codec: VP8, Payload type 100, Height 360, Width 640, Bitrate 200,Framerate 15.
+INFO    ( 2:42:54:413 |    0)   8669; Codec: H264, Payload type 107, Height 360, Width 640, Bitrate 200,Framerate 15.
+INFO    ( 2:42:54:425 |   12)  10015; Thread with name:videoDecodeThread started 
+INFO    ( 2:42:54:564 |  139)  10015; Destroy decoder.
+INFO    ( 2:42:54:570 |    6)  10015; Finish init decoder.
+INFO    ( 2:42:54:634 |   64)  10015; [che] onVideoSizeChanged: uid 10335330 640x480 rotate 270
+INFO    ( 2:42:54:642 |    8)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:42:54:643 |    1)   8669; stopInvisibleRenderers: user 0 is invisible, stop rendering
+WARN    ( 2:42:54:643 |    0)   8669; VideoEngine::StopRender() VideoEngine haven't StartRender
+INFO    ( 2:42:54:643 |    0)   8669; stopInvisibleRenderers: user 10335330 is invisible, stop rendering
+INFO    ( 2:42:54:643 |    0)   8669; switchStream (10335330): current 0 lastRequested -1 newRequested 0
+INFO    ( 2:42:54:643 |    0)   8669; switchStream (uid 10335330 fromNetOb 0): switch to 0
+WARN    ( 2:42:54:643 |    0)   8669; [MYDEBUG] set wanted stream master for 10335330
+INFO    ( 2:42:54:643 |    0)   8669; doStartRemoteRender: uid 10335330
+ERROR   ( 2:42:54:643 |    0)   8669; doStartRemoteRender: cannot render user 10335330 with empty view
+INFO    ( 2:42:54:643 |    0)   8669; onRemoteFirstFrameDecoded user 10335330 resolution 640 * 480, elapsed 1473
+INFO    ( 2:42:54:643 |    0)   8669; [cc] request to switch user 10335330 video stream to 0
+INFO    ( 2:42:54:646 |    3)   8669; [rp] {"rtc.audio.mute_peer":{"uid":10335330,"mute":false}}
+INFO    ( 2:42:54:646 |    0)   8669; [pm] mute audio peer 10335330 muted false
+INFO    ( 2:42:54:646 |    0)   8669; [ds]: ver 3 ds '{"streamType":5}'
+INFO    ( 2:42:54:646 |    0)   8669; [ch0] sync (cid:3908486392, uid:10341022, sync:3): 107.155.14.132:4003
+INFO    ( 2:42:54:672 |   26)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:42:54:673 |    1)   8669; setMuteStatus, muted: Off
+INFO    ( 2:42:54:810 |  137)   8086; [API] userManagerPendingView: user 10335330 window -1096540160
+INFO    ( 2:42:54:810 |    0)   8669; [API] userManagerBindUserView: user 10335330 mode 1 window -1096540160
+INFO    ( 2:42:54:810 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:42:54:810 |    0)   8669; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 2:42:54:810 |    0)   8669; switchStream (10335330): current 0 lastRequested 0 newRequested 0
+INFO    ( 2:42:54:810 |    0)   8669; doStartRemoteRender: uid 10335330
+INFO    ( 2:42:54:830 |   20)   8669; SetViewOrientation: uid 10335330 viewOri 0
+INFO    ( 2:42:54:830 |    0)   8669; SetCoordinates: uid 10335330 overflowMode 1
+INFO    ( 2:42:54:831 |    1)  10018; Thread with name:IncomingVideoStreamThread started 
+INFO    ( 2:42:54:832 |    1)  10019; Thread with name:WebRtc_event_timer_thread started 
+INFO    ( 2:42:54:833 |    1)   8669; SetRotateInfo: uid 10335330 videoRotate: 0 devRotate: 0 
+INFO    ( 2:42:54:833 |    0)  10020; Thread with name:AndroidRenderThread started 
+INFO    ( 2:42:55: 36 |    0)  10017; [SurfaceView] Surface changed to width 480 height 800
+INFO    ( 2:42:55: 36 |    0)  10017; Setup: uid 10335330 width 480, height 800
+INFO    ( 2:42:55: 48 |   12)  10018; User 10335330's view size is changed to 480 * 800
+INFO    ( 2:42:55: 48 |    0)  10018; switchStream (10335330): current 0 lastRequested 0 newRequested 0
+INFO    ( 2:42:55: 48 |    0)  10018; FIRST_FRAME_ARRIVED: Remote stream (10335330) first rendered with resolution 640 * 480
+INFO    ( 2:42:55: 50 |    2)   8669; onFirstVideoFrame remote 10335330 resolution 640 * 480, elapsed 1881
+INFO    ( 2:42:55: 64 |   14)  10004; Encoder Bcm Connection Success
+INFO    ( 2:42:55:124 |   60)  10017; SetViewOrientation: uid 10335330 viewOri 0
+INFO    ( 2:42:57:601 |  477)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:42:57:602 |    1)   8669; setMuteStatus, muted: Off
+INFO    ( 2:42:57:714 |  112)   8669; [rp] {"rtc.video.preview":false}
+ERROR   ( 2:42:57:719 |    5)   8669; API call failed to stop video preview due to not in idle mode
+INFO    ( 2:42:57:723 |    4)   8086; [AudioRoute] Monitor stopped
+INFO    ( 2:42:57:723 |    0)   8086; API call to leave channel
+INFO    ( 2:42:57:723 |    0)   8669; [cm] emit leave channel signal
+INFO    ( 2:42:58: 45 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+WARN    ( 2:42:58: 46 |    1)   8669; DeregisterFrameCallback 0x0xb7c32d14 not found
+INFO    ( 2:42:58: 46 |    0)  10014; Thread with name:ViECaptureThread stopped
+INFO    ( 2:42:58: 56 |   10)   8669; stopCapture: stopCapture success
+INFO    ( 2:42:58: 56 |    0)   8669; stopRemoteRender
+INFO    ( 2:42:58: 56 |    0)   8669; stopRemoteVideo: uid=10335330
+INFO    ( 2:42:58: 56 |    0)   8669; stopRemoteRenderWithUid: uid: 10335330
+ERROR   ( 2:42:58: 59 |    3)   8669; Save last frame for uid (10335330)
+INFO    ( 2:42:58: 59 |    0)  10019; Thread with name:WebRtc_event_timer_thread stopped
+INFO    ( 2:42:58: 60 |    1)  10018; Thread with name:IncomingVideoStreamThread stopped
+INFO    ( 2:42:58: 75 |   15)  10020; Thread with name:AndroidRenderThread stopped
+INFO    ( 2:42:58: 85 |   10)  10015; Thread with name:videoDecodeThread stopped
+INFO    ( 2:42:58:103 |   18)   8669; Destroy decoder.
+INFO    ( 2:42:58:103 |    0)   8669; Destroy decoder.
+INFO    ( 2:42:58:107 |    4)   8669; [che] stopCall begins
+INFO    ( 2:42:58:148 |   41)   8669; StopRecording complete
+INFO    ( 2:42:58:157 |    9)   8669; StopPlayout complete
+INFO    ( 2:42:58:157 |    0)   8669; [JNI] audioMode is set to 0
+INFO    ( 2:42:58:296 |  139)   8669; [che] stop call returns 0, elapsed 189
+INFO    ( 2:42:58:297 |    1)   8669; [rs] **report stats: seq: 26, report list size 16, tx/rx: 6326/1344, cache size: 0, report success rate: 0
+INFO    ( 2:42:58:297 |    0)   8669; **CALL STATS: duration 4s, tx 120.869K bytes, rx 153.815K bytes, total 274.660K bytes
+INFO    ( 2:42:58:297 |    0)   8669; CacheManager: save cache to storage elapsed 0
+INFO    ( 2:42:58:298 |    1)   8669; [ch0] vos destroyed
+INFO    ( 2:42:58:299 |    1)   8669; delRef of media engine, ref=0
+INFO    ( 2:42:58:299 |    0)   8669; [che] chat engine destroying
+INFO    ( 2:42:58:299 |    0)   8669; stopLocalRender: Cannot stop renderer -1 (not exist)
+WARN    ( 2:42:58:299 |    0)   8669; stopCapture: VideoEngine haven't startCapture
+INFO    ( 2:42:58:299 |    0)   8669; stopRemoteRender
+INFO    ( 2:42:58:299 |    0)   8669; stopRemoteVideo: uid=10335330
+INFO    ( 2:42:58:299 |    0)   8669; stopRemoteRenderWithUid: uid: 10335330
+WARN    ( 2:42:58:299 |    0)   8669; stopRemoteRenderWithUid No render exist with render_id: 10335330
+INFO    ( 2:42:58:300 |    1)   8669; [che] stopCall begins
+INFO    ( 2:42:58:300 |    0)   8669; [che] stop call returns -1, elapsed 0
+INFO    ( 2:42:58:304 |    4)   8669; stopLocalRender: Cannot stop renderer -1 (not exist)
+INFO    ( 2:42:58:304 |    0)   8669; stopRemoteRender
+INFO    ( 2:42:58:304 |    0)   8669; stopRemoteVideo: uid=10335330
+INFO    ( 2:42:58:305 |    1)   8669; stopRemoteRenderWithUid: uid: 10335330
+WARN    ( 2:42:58:305 |    0)   8669; stopRemoteRenderWithUid No render exist with render_id: 10335330
+WARN    ( 2:42:58:305 |    0)   8669; stopCapture: VideoEngine haven't startCapture
+INFO    ( 2:42:58:305 |    0)  10000; Thread with name:VideoProcessThread stopped
+WARN    ( 2:42:58:315 |   10)   8669; terminate: VideoEngine haven't init
+INFO    ( 2:42:58:315 |    0)   8669; [DEBUGG] ViERenderManager Destructor, engine_id: 0
+INFO    ( 2:42:58:320 |    5)  10004; Thread with name:VideoEncodeThread stopped
+INFO    ( 2:42:58:323 |    3)   8086; [AudioRoute] setState: state not changed!
+INFO    ( 2:42:58:323 |    0)   8086; API call to leave channel
+INFO    ( 2:42:58:346 |   23)   8669; Delete participant 10335330
+INFO    ( 2:42:58:350 |    4)   9982; Thread with name:EngineMonitorThread stopped
+INFO    ( 2:42:58:361 |   11)   9980; Thread with name:jni_audio_capture_thread stopped
+INFO    ( 2:42:58:372 |   11)   9981; Thread with name:jni_audio_render_thread stopped
+INFO    ( 2:42:58:384 |   12)   8669; SetAndroidObjects: JVM is NULL, assuming deinit
+INFO    ( 2:42:58:387 |    3)   8669; [che] chat engine destroyed
+INFO    ( 2:42:58:387 |    0)   8669; ***CALL END
+INFO    ( 2:42:58:389 |    2)   8669; [rp] {"rtc.video.preview":false}
+INFO    ( 2:42:58:389 |    0)   8669; API call to stop video preview
+INFO    ( 2:42:58:389 |    0)   8669; [rp] {"rtc.video.preview":false}
+INFO    ( 2:42:58:389 |    0)   8669; API call to stop video preview
+ERROR   ( 2:42:58:389 |    0)   8669; failed to leave channel due to NOT in CALL
+INFO    ( 2:42:58:390 |    1)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:43: 0:504 |  114)   8086; Attach external video source to pipeline
+INFO    ( 2:43: 0:505 |    1)   8669; [rp] {"che.audio.set_capture_raw_audio_format":{"sampleRate":44100,"channelCnt":1,"mode":0,"samplesPerCall":1024}}
+INFO    ( 2:43: 0:505 |    0)   8669; [rp] {"che.video.enableRemoteViewMirror":true}
+INFO    ( 2:43: 0:532 |   27)   8086; API call to join channel '247d7647-7f8a-4576-838d-82c4726a9b8a' uid 10341022, SDK ver 1.14.0 build 210, device info 'zte/z717vl/z717vl/lavender/22/3.10.49-g75d3f9e'
+INFO    ( 2:43: 0:532 |    0)   8669; ***CALL BEGIN: appid:'d6****************************07' cname:'247d7647-7f8a-4576-838d-82c4726a9b8a' info:'' sid:'C9C4B29B3F28491CA4C17829CD58FCF8'
+INFO    ( 2:43: 0:532 |    0)   8669; addRef of media engine, ref=1
+INFO    ( 2:43: 0:533 |    1)   8669; [che] create chat engine, ctx:0x8e9a0b74
+INFO    ( 2:43: 0:533 |    0)   8669; use android device recording
+INFO    ( 2:43: 0:538 |    5)   8669; [MYDEBUG] large group call false
+INFO    ( 2:43: 0:538 |    0)   8669; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    ( 2:43: 0:538 |    0)   8669; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    ( 2:43: 0:542 |    4)   8669; output: kPlatformDefaultAudio
+INFO    ( 2:43: 0:545 |    3)   8669;   OS info: Android
+INFO    ( 2:43: 0:570 |   25)   8669; [JNI] use profiled sampling rate : 16000
+INFO    ( 2:43: 0:576 |    6)  10111; Thread with name:jni_audio_capture_thread started 
+INFO    ( 2:43: 0:578 |    2)  10112; Thread with name:jni_audio_render_thread started 
+INFO    ( 2:43: 0:578 |    0)   8669; [JNI] playback device is set to 0
+INFO    ( 2:43: 0:578 |    0)   8669; [JNI] recording device is set to 0
+INFO    ( 2:43: 0:578 |    0)   8669; Set stereo playback available = 0
+INFO    ( 2:43: 0:578 |    0)   8669; StereoPlayoutIsAvailable(), output: available=0
+INFO    ( 2:43: 0:578 |    0)   8669; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 2:43: 0:581 |    3)   8669; setMuteStatus, muted: Off
+INFO    ( 2:43: 0:581 |    0)   8669; setMuteOutput, muted: false
+WARN    ( 2:43: 0:581 |    0)   8669; setMicSensitivity failed, legal values are between [0, 10]
+INFO    ( 2:43: 0:581 |    0)   8669; Audio Engine Init success
+INFO    ( 2:43: 0:583 |    2)  10113; Thread with name:EngineMonitorThread started 
+INFO    ( 2:43: 0:599 |   16)   8669; [MediaCodecVideoEncoder] Found candidate encoder OMX.qcom.video.encoder.avc
+INFO    ( 2:43: 0:606 |    7)   8669; init: feature prerotation disabled
+INFO    ( 2:43: 0:606 |    0)   8669; init: no custom rotation
+INFO    ( 2:43: 0:606 |    0)   8669; Agora Engine video codec set to custom mode role mode 0
+INFO    ( 2:43: 0:606 |    0)   8669; Agora Engine video codec index 1
+INFO    ( 2:43: 0:606 |    0)   8669; Agora Engine video stream type = 0
+INFO    ( 2:43: 0:607 |    1)  10116; Thread with name:VideoEncodeThread started 
+INFO    ( 2:43: 0:608 |    1)   8669; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 2:43: 0:608 |    0)   8669; h264WebInteropEnable: enable 0
+INFO    ( 2:43: 0:608 |    0)   8669; setMaxVideoBitrate: max bitrate=0
+INFO    ( 2:43: 0:608 |    0)   8669; more fec enable 0
+INFO    ( 2:43: 0:609 |    1)   8669; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 2:43: 0:609 |    0)   8669; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 2:43: 0:609 |    0)   8669; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 2:43: 0:609 |    0)   8669; setCodecRates: set frame rate to 15
+INFO    ( 2:43: 0:609 |    0)   8669; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 2:43: 0:609 |    0)   8669; setCodecResolution: set to 640 x 480
+INFO    ( 2:43: 0:609 |    0)   8669; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 2:43: 0:609 |    0)  10117; Thread with name:VideoProcessThread started 
+INFO    ( 2:43: 0:613 |    4)  10116; Thread with name:VideoEncodeThread stopped
+INFO    ( 2:43: 0:620 |    7)  10120; Thread with name:VideoEncodeThread started 
+INFO    ( 2:43: 0:621 |    1)   8669; [che] chat engine initialized
+INFO    ( 2:43: 0:623 |    2)   8669; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    ( 2:43: 0:623 |    0)   8669; [tactics] parse config for beckon error for tactics size:15
+INFO    ( 2:43: 0:624 |    1)   8669; [vocs] vocs initialized
+WARN    ( 2:43: 0:628 |    4)   8669; bind error: Permission denied
+INFO    ( 2:43: 0:628 |    0)   8669; CacheManager: save cache to storage elapsed 0
+INFO    ( 2:43: 0:629 |    1)   8669; [cm] emit join channel signal, size=3
+INFO    ( 2:43: 0:629 |    0)   8669; [vocs] lookup channel...
+INFO    ( 2:43: 0:629 |    0)   8669; [vocs] selected: 119.9.92.49:8000
+INFO    ( 2:43: 0:630 |    1)   8669; connecting to 119.9.92.49:8000 handle b73bf7c0, 199
+INFO    ( 2:43: 0:630 |    0)   8669; [vocs] creating channel with 119.9.92.49:8000, ts 1513496580630.......
+INFO    ( 2:43: 0:631 |    1)   8669; [vocs] selected: 183.236.26.162:8000
+INFO    ( 2:43: 0:631 |    0)   8669; [vocs] creating channel with 183.236.26.162:8000, ts 1513496580631.......
+INFO    ( 2:43: 0:631 |    0)   8669; [vocs] selected: 221.228.202.134:8000
+INFO    ( 2:43: 0:631 |    0)   8669; [vocs] creating channel with 221.228.202.134:8000, ts 1513496580631.......
+INFO    ( 2:43: 0:884 |  253)   8669; [vocs/u] **responsed from 119.9.92.49:8000, 3 vos, elapsed 352, server ts 1513496580960, wan ip 71.241.215.78
+INFO    ( 2:43: 0:884 |    0)   8669; [vos] added server: 107.151.160.10:4005
+INFO    ( 2:43: 0:884 |    0)   8669; [vos] added server: 69.172.244.38:4006
+INFO    ( 2:43: 0:884 |    0)   8669; [vos] added server: 107.155.14.132:4007
+INFO    ( 2:43: 0:885 |    1)   8669; [ch0] vos initialized
+INFO    ( 2:43: 0:885 |    0)   8669; [vos] selected: 107.155.14.132:4007
+INFO    ( 2:43: 0:885 |    0)   8669; [ds]: ver 1 ds '{"streamType":5}'
+INFO    ( 2:43: 0:885 |    0)   8669; [ch0] Login VOS (proto:8, cid:1220458257, uid:10341022, ts:1513496580885, ticket size:120 ds:1 stream:+A+VH) 2: 107.155.14.132:4007
+INFO    ( 2:43: 0:942 |   57)   8669; [vocs/u] **responsed from 183.236.26.162:8000, 3 vos, elapsed 410, server ts 1513496580984, wan ip 71.241.215.78
+INFO    ( 2:43: 0:942 |    0)   8669; [vos] added server: 107.151.160.10:4004
+INFO    ( 2:43: 0:942 |    0)   8669; [vos] added server: 69.172.244.40:4001
+INFO    ( 2:43: 0:942 |    0)   8669; [vos] added server: 107.155.14.132:4001
+INFO    ( 2:43: 0:943 |    1)   8669; [ch0] **VOS response to login request (res 0 elapsed 411, server ts 1513496581103, s-c:160) from 107.155.14.132:4007
+INFO    ( 2:43: 0:943 |    0)   8669; [che] start call begins
+INFO    ( 2:43: 0:943 |    0)   8669; Set Application Mode in RTC Engine to No. 0
+INFO    ( 2:43: 0:944 |    1)   8669; Set Application Mode details solo 0, extend 0, audience 0, br 128000, streamType 0
+INFO    ( 2:43: 0:944 |    0)   8669; SetCodec by type : No. 85
+WARN    ( 2:43: 0:944 |    0)   8669; SetRecordingChannel() unable to set the recording channel (error=10028)
+INFO    ( 2:43: 0:944 |    0)   8669; [JNI] recording device is set to 7
+INFO    ( 2:43: 0:944 |    0)   8669; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 2:43: 0:944 |    0)   8669; SetRecordingDevicePart2:SetStereoRecording, stereo recording=0
+INFO    ( 2:43: 0:944 |    0)   8669; [JNI] audioMode is set to 3
+INFO    ( 2:43: 0:959 |   15)   8086; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 2:43: 0:961 |    2)   8086; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 2:43: 1: 91 |    0)   8669; [JNI] playback sample rate is set to (16000)
+INFO    ( 2:43: 1: 96 |    5)   8669; StartPlayout complete
+INFO    ( 2:43: 1: 96 |    0)   8669; output: NOT_SUPPORTED
+ERROR   ( 2:43: 1:124 |   28)   8669; [AudioDevice Java] AcousticEchoCanceler.getEnabled: false
+INFO    ( 2:43: 1:124 |    0)   8669; [JNI] recording sample rate is set to (16000)
+INFO    ( 2:43: 1:132 |    8)   8669; StartRecording complete
+INFO    ( 2:43: 1:134 |    2)   8669; SetHowlingControl enable = 1
+INFO    ( 2:43: 1:134 |    0)   8669; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 2:43: 1:134 |    0)   8669; MID = 69, Routing = 3
+INFO    ( 2:43: 1:134 |    0)   8669; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 2:43: 1:134 |    0)   8669; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 2:43: 1:134 |    0)   8669; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 2:43: 1:134 |    0)   8669; setCodecRates: set frame rate to 15
+INFO    ( 2:43: 1:134 |    0)   8669; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 2:43: 1:134 |    0)   8669; setCodecResolution: set to 640 x 480
+INFO    ( 2:43: 1:134 |    0)   8669; Use external video source
+INFO    ( 2:43: 1:134 |    0)   8669; startCapture: device? 1025 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    ( 2:43: 1:136 |    2)   8669; startCapture: startCapture success
+INFO    ( 2:43: 1:136 |    0)   8669; EnableLowBitRateStream: dual streams enabled 0
+INFO    ( 2:43: 1:136 |    0)   8669; RequestEncodeKeyFrame
+INFO    ( 2:43: 1:136 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:43: 1:136 |    0)   8669; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 2:43: 1:136 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:43: 1:136 |    0)   8669; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 2:43: 1:136 |    0)   8669; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+INFO    ( 2:43: 1:136 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:43: 1:136 |    0)   8669; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 2:43: 1:136 |    0)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 2:43: 1:136 |    0)   8669; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 2:43: 1:136 |    0)   8669; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+ERROR   ( 2:43: 1:136 |    0)   8669; [che] Unable to start render local video, res=-1
+INFO    ( 2:43: 1:136 |    0)   8669; [che] start call returns -1, elapsed 193
+ERROR   ( 2:43: 1:136 |    0)   8669; [che] error calling startCall()
+INFO    ( 2:43: 1:136 |    0)   8669; join channel success: cname '247d7647-7f8a-4576-838d-82c4726a9b8a' uid 10341022 elapsed 604
+INFO    ( 2:43: 1:137 |    1)   8669; [vocs/u] **responsed from 221.228.202.134:8000, 3 vos, elapsed 605, server ts 1513496581098, wan ip 71.241.215.78
+INFO    ( 2:43: 1:137 |    0)   8669; [vos] added server: 23.236.124.10:4002
+INFO    ( 2:43: 1:137 |    0)   8669; [vos] added server: 69.172.244.37:4003
+INFO    ( 2:43: 1:137 |    0)   8669; [vos] added server: 107.155.14.138:4005
+INFO    ( 2:43: 1:137 |    0)  10163; Thread with name:ViECaptureThread started 
+INFO    ( 2:43: 1:138 |    1)   8668; [AudioRoute] reset audio routing, default routing: Speakerphone, current routing: Default, target routing: Speakerphone, actual system routing: Speakerphone
+INFO    ( 2:43: 1:139 |    1)   8668; [AudioRoute] set audio output routing from Default to Speakerphone
+INFO    ( 2:43: 1:140 |    1)   8668; [AudioRoute] audio routing changed to Speakerphone
+INFO    ( 2:43: 1:140 |    0)   8668; [AudioRoute] Monitor start: default routing: Speakerphone, current routing: Speakerphone
+INFO    ( 2:43: 1:141 |    1)   8669; [rp] {"che.audio.output.routing":3}
+INFO    ( 2:43: 1:142 |    1)   8669; SetHowlingControl enable = 1
+INFO    ( 2:43: 1:142 |    0)   8669; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 2:43: 1:142 |    0)   8669; MID = 69, Routing = 3
+INFO    ( 2:43: 1:189 |   47)   8669; [ch0] rtt: 53
+INFO    ( 2:43: 1:315 |  126)   8669; onFirstLocalAudioFrame codec 85 elapsed 783
+INFO    ( 2:43: 2:502 |  187)   8669; [rp] {"rtc.video.preview":false}
+ERROR   ( 2:43: 2:503 |    1)   8669; API call failed to stop video preview due to not in idle mode
+INFO    ( 2:43: 2:520 |   17)   8086; [AudioRoute] Monitor stopped
+INFO    ( 2:43: 2:520 |    0)   8086; API call to leave channel
+INFO    ( 2:43: 2:520 |    0)   8669; [cm] emit leave channel signal
+INFO    ( 2:43: 2:843 |  323)   8669; stopLocalRender: Cannot stop renderer 4097 (not exist)
+WARN    ( 2:43: 2:843 |    0)   8669; DeregisterFrameCallback 0x0xb7d0c484 not found
+INFO    ( 2:43: 2:843 |    0)  10163; Thread with name:ViECaptureThread stopped
+INFO    ( 2:43: 2:854 |   11)   8669; stopCapture: stopCapture success
+INFO    ( 2:43: 2:854 |    0)   8669; stopRemoteRender
+INFO    ( 2:43: 2:854 |    0)   8669; [che] stopCall begins
+INFO    ( 2:43: 2:896 |   42)   8669; StopRecording complete
+INFO    ( 2:43: 2:900 |    4)   8669; StopPlayout complete
+INFO    ( 2:43: 2:900 |    0)   8669; [JNI] audioMode is set to 0
+INFO    ( 2:43: 3: 41 |    0)   8669; [che] stop call returns 0, elapsed 187
+INFO    ( 2:43: 3: 41 |    0)   8669; [rs] **report stats: seq: 34, report list size 24, tx/rx: 7936/1776, cache size: 0, report success rate: 0
+INFO    ( 2:43: 3: 42 |    1)   8669; **CALL STATS: duration 2s, tx 17.287K bytes, rx 2.118K bytes, total 19.405K bytes
+INFO    ( 2:43: 3: 42 |    0)   8669; CacheManager: save cache to storage elapsed 0
+INFO    ( 2:43: 3: 42 |    0)   8669; [ch0] vos destroyed
+INFO    ( 2:43: 3: 43 |    1)   8669; delRef of media engine, ref=0
+INFO    ( 2:43: 3: 43 |    0)   8669; [che] chat engine destroying
+INFO    ( 2:43: 3: 43 |    0)   8669; stopLocalRender: Cannot stop renderer -1 (not exist)
+WARN    ( 2:43: 3: 43 |    0)   8669; stopCapture: VideoEngine haven't startCapture
+INFO    ( 2:43: 3: 43 |    0)   8669; stopRemoteRender
+INFO    ( 2:43: 3: 43 |    0)   8669; [che] stopCall begins
+INFO    ( 2:43: 3: 43 |    0)   8669; [che] stop call returns -1, elapsed 0
+INFO    ( 2:43: 3: 43 |    0)   8669; stopLocalRender: Cannot stop renderer -1 (not exist)
+INFO    ( 2:43: 3: 43 |    0)   8669; stopRemoteRender
+WARN    ( 2:43: 3: 43 |    0)   8669; stopCapture: VideoEngine haven't startCapture
+INFO    ( 2:43: 3: 44 |    1)  10117; Thread with name:VideoProcessThread stopped
+WARN    ( 2:43: 3: 54 |   10)   8669; terminate: VideoEngine haven't init
+INFO    ( 2:43: 3: 54 |    0)   8669; [DEBUGG] ViERenderManager Destructor, engine_id: 0
+INFO    ( 2:43: 3: 56 |    2)  10120; Thread with name:VideoEncodeThread stopped
+INFO    ( 2:43: 3: 69 |   13)  10113; Thread with name:EngineMonitorThread stopped
+INFO    ( 2:43: 3: 70 |    1)  10111; Thread with name:jni_audio_capture_thread stopped
+INFO    ( 2:43: 3: 71 |    1)  10112; Thread with name:jni_audio_render_thread stopped
+INFO    ( 2:43: 3: 73 |    2)   8669; SetAndroidObjects: JVM is NULL, assuming deinit
+INFO    ( 2:43: 3: 78 |    5)   8669; [che] chat engine destroyed
+INFO    ( 2:43: 3: 79 |    1)   8669; ***CALL END
+INFO    ( 2:43: 3: 81 |    2)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:43: 3: 87 |    6)   8669; [rp] {"rtc.video.preview":false}
+INFO    ( 2:43: 3: 87 |    0)   8669; API call to stop video preview
+INFO    ( 2:43: 7:209 |  122)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:43: 8:277 |   68)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:43:11: 25 |    0)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:43:11: 37 |   12)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:43:13: 67 |   30)   8669; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 2:43:16:956 |  889)   8669; [rs] **report stats: seq: 34, report list size 24, tx/rx: 7936/1920, cache size: 0, report success rate: 100
+INFO    ( 2:43:51:968 |   12)   8669; [rs] **report stats: seq: 34, report list size 24, tx/rx: 7936/1920, cache size: 0, report success rate: 100
+Local Date: Sun Dec 17 03:02:16 2017
+Build info: Oct 20 2017 12:14:21 r
+
+INFO    ( 3: 2:16:393 |    0)  19302; [AudioRoute] Bluetooth SCO device disconnected
+INFO    ( 3: 2:16:432 |   39)  19302; [RtcEngine] system phone call end
+INFO    ( 3: 2:16:432 |    0)  19613; [rp] {"rtc.audio.enabled":true,"che.disable.audio":false}
+INFO    ( 3: 2:16:436 |    4)  19302; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 3: 2:16:437 |    1)  19302; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 3: 2:16:449 |   12)  19302; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 3: 2:16:450 |    1)  19302; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 3: 2:16:737 |  287)  19302; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 3: 2:16:746 |    9)  19302; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 3: 2:16:773 |   27)  19302; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 3: 2:16:774 |    1)  19302; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 3: 2:20:361 |    0)  19613; [dns] parsed ip 119.9.116.105
+INFO    ( 3: 2:20:376 |   15)  19613; [dns] parsed ip 23.253.229.83
+INFO    ( 3: 3: 0:415 |   39)  19613; [ps] error received, deviceIndexRequest, err 14
+INFO    ( 3: 3: 0:429 |   14)  19613; [ps] error received, vendorPolicyRequest, err 14
+INFO    ( 3: 3: 0:429 |    0)  19613; [ps] udpate priority: 3
+INFO    ( 3: 3: 0:436 |    7)  19613; [ps] error received, versionPolicyRequest, err 14
+INFO    ( 3: 3: 0:436 |    0)  19613; [ps] udpate priority: 4
+INFO    ( 3: 3: 0:436 |    0)  19613; [ps] error received, globalPolicyRequest, err 14
+INFO    ( 3: 3: 0:437 |    1)  19613; [ps] udpate priority: 1
+Local Date: Sun Dec 17 03:11:46 2017
+Build info: Oct 20 2017 12:14:21 r
+
+INFO    ( 3:11:46:799 |   55)  23992; [AudioRoute] Bluetooth SCO device disconnected
+INFO    ( 3:11:46:828 |   29)  23992; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 3:11:46:829 |    1)  23992; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 3:11:46:840 |   11)  23992; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 3:11:46:841 |    1)  23992; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 3:11:46:846 |    5)  23992; [RtcEngine] system phone call end
+INFO    ( 3:11:46:847 |    1)  24219; [rp] {"rtc.audio.enabled":true,"che.disable.audio":false}
+INFO    ( 3:11:47:526 |    0)  23992; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 3:11:47:527 |    1)  23992; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 3:11:47:535 |    8)  23992; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 3:11:47:537 |    2)  23992; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 3:11:50:275 |    0)  24219; [dns] parsed ip 119.9.116.105
+INFO    ( 3:11:50:290 |   15)  24219; [dns] parsed ip 23.253.229.83
+INFO    ( 3:12:10:462 |  172)  24219; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 3:12:11:390 |    0)  23992; Attach external video source to pipeline
+INFO    ( 3:12:11:505 |  115)  24219; [rp] {"che.audio.set_capture_raw_audio_format":{"sampleRate":44100,"channelCnt":1,"mode":0,"samplesPerCall":1024}}
+INFO    ( 3:12:11:505 |    0)  24219; [rp] {"che.video.enableRemoteViewMirror":true}
+INFO    ( 3:12:11:716 |  211)  23992; API call to join channel '042b50c1-e95a-4357-9168-298eed338dce' uid 10341022, SDK ver 1.14.0 build 210, device info 'zte/z717vl/z717vl/lavender/22/3.10.49-g75d3f9e'
+INFO    ( 3:12:11:720 |    4)  24219; ***CALL BEGIN: appid:'d6****************************07' cname:'042b50c1-e95a-4357-9168-298eed338dce' info:'' sid:'BE281E8BE596437AA8AC19C04EEB77F9'
+INFO    ( 3:12:11:720 |    0)  24219; addRef of media engine, ref=1
+INFO    ( 3:12:11:728 |    8)  24219; [che] create chat engine, ctx:0x930c3b74
+INFO    ( 3:12:11:735 |    7)  24219; use android device recording
+INFO    ( 3:12:11:746 |   11)  24219; [MYDEBUG] large group call false
+INFO    ( 3:12:11:746 |    0)  24219; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    ( 3:12:11:747 |    1)  24219; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    ( 3:12:11:799 |   52)  24219; output: kPlatformDefaultAudio
+INFO    ( 3:12:11:829 |   30)  24219;   OS info: Android
+INFO    ( 3:12:12: 85 |    0)  24219; [JNI] use profiled sampling rate : 16000
+INFO    ( 3:12:12: 93 |    8)  24532; Thread with name:jni_audio_capture_thread started 
+INFO    ( 3:12:12: 98 |    5)  24536; Thread with name:jni_audio_render_thread started 
+INFO    ( 3:12:12:104 |    6)  24219; [JNI] playback device is set to 0
+INFO    ( 3:12:12:105 |    1)  24219; [JNI] recording device is set to 0
+INFO    ( 3:12:12:105 |    0)  24219; Set stereo playback available = 0
+INFO    ( 3:12:12:105 |    0)  24219; StereoPlayoutIsAvailable(), output: available=0
+INFO    ( 3:12:12:105 |    0)  24219; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 3:12:12:110 |    0)  24219; setMuteStatus, muted: Off
+INFO    ( 3:12:12:110 |    0)  24219; setMuteOutput, muted: false
+INFO    ( 3:12:12:110 |    5)  24537; Thread with name:EngineMonitorThread started 
+WARN    ( 3:12:12:110 |    0)  24219; setMicSensitivity failed, legal values are between [0, 10]
+INFO    ( 3:12:12:111 |    1)  24219; Audio Engine Init success
+INFO    ( 3:12:12:169 |   58)  24219; [MediaCodecVideoEncoder] Found candidate encoder OMX.qcom.video.encoder.avc
+INFO    ( 3:12:12:211 |   42)  24219; Available number of cores:4
+INFO    ( 3:12:12:214 |    3)  24219; init: feature prerotation disabled
+INFO    ( 3:12:12:214 |    0)  24219; init: no custom rotation
+INFO    ( 3:12:12:670 |  456)  24219; Agora Engine video codec set to custom mode role mode 0
+INFO    ( 3:12:12:670 |    0)  24219; Agora Engine video codec index 1
+INFO    ( 3:12:12:670 |    0)  24219; Agora Engine video stream type = 0
+INFO    ( 3:12:12:687 |   17)  24568; Thread with name:VideoEncodeThread started 
+INFO    ( 3:12:12:699 |   12)  24569; Thread with name:VideoProcessThread started 
+INFO    ( 3:12:12:708 |    9)  24219; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 3:12:12:708 |    0)  24219; h264WebInteropEnable: enable 0
+INFO    ( 3:12:12:708 |    0)  24219; setMaxVideoBitrate: max bitrate=0
+INFO    ( 3:12:12:708 |    0)  24219; more fec enable 0
+INFO    ( 3:12:12:712 |    4)  24219; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 3:12:12:712 |    0)  24219; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 3:12:12:773 |   61)  24219; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 3:12:12:773 |    0)  24219; setCodecRates: set frame rate to 15
+INFO    ( 3:12:12:773 |    0)  24219; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 3:12:12:773 |    0)  24219; setCodecResolution: set to 640 x 480
+INFO    ( 3:12:12:773 |    0)  24219; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 3:12:12:774 |    1)  24568; Thread with name:VideoEncodeThread stopped
+INFO    ( 3:12:12:788 |   14)  24570; Thread with name:VideoEncodeThread started 
+INFO    ( 3:12:12:789 |    1)  24219; [che] chat engine initialized
+INFO    ( 3:12:12:802 |   13)  24219; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    ( 3:12:12:803 |    1)  24219; [tactics] parse config for beckon error for tactics size:15
+INFO    ( 3:12:12:819 |   16)  24219; [vocs] vocs initialized
+WARN    ( 3:12:12:826 |    7)  24219; bind error: Permission denied
+INFO    ( 3:12:12:839 |   13)  24219; CacheManager: save cache to storage elapsed 12
+INFO    ( 3:12:12:839 |    0)  24219; [cm] emit join channel signal, size=3
+INFO    ( 3:12:12:849 |   10)  24219; [rs] report server ip: 223.111.12.227:8000
+INFO    ( 3:12:12:851 |    2)  24219; [rlbs] selected: 221.228.78.123:9700
+INFO    ( 3:12:12:851 |    0)  24219; [rlbs] request rs list from 221.228.78.123:9700.......
+INFO    ( 3:12:12:854 |    3)  24219; [vocs] lookup channel...
+INFO    ( 3:12:12:854 |    0)  24219; [vocs] selected: 123.155.153.69:8000
+INFO    ( 3:12:12:858 |    4)  24219; connecting to 123.155.153.69:8000 handle b79ef180, 207
+INFO    ( 3:12:12:860 |    2)  24219; [vocs] creating channel with 123.155.153.69:8000, ts 1513498332859.......
+INFO    ( 3:12:12:861 |    1)  24219; [vocs] selected: 221.228.202.134:8000
+INFO    ( 3:12:12:862 |    1)  24219; [vocs] creating channel with 221.228.202.134:8000, ts 1513498332862.......
+INFO    ( 3:12:12:870 |    8)  24219; [vocs] selected: 183.236.26.162:8000
+INFO    ( 3:12:12:870 |    0)  24219; [vocs] creating channel with 183.236.26.162:8000, ts 1513498332870.......
+INFO    ( 3:12:12:871 |    1)  24219; [rp] {"che.video.local.rotate_video":{"degree":270,"rotation":0}}
+INFO    ( 3:12:13:142 |    0)  24219; [vocs/u] **responsed from 123.155.153.69:8000, 3 vos, elapsed 1426, server ts 1513498333319, wan ip 71.241.215.78
+INFO    ( 3:12:13:142 |    0)  24219; [vos] added server: 107.151.160.29:4009
+INFO    ( 3:12:13:143 |    1)  24219; [vos] added server: 69.172.244.38:4003
+INFO    ( 3:12:13:143 |    0)  24219; [vos] added server: 107.155.14.130:4003
+INFO    ( 3:12:13:144 |    1)  24219; [ch0] vos initialized
+INFO    ( 3:12:13:144 |    0)  24219; [vos] selected: 107.155.14.130:4003
+INFO    ( 3:12:13:144 |    0)  24219; [ds]: ver 1 ds '{"streamType":5}'
+INFO    ( 3:12:13:145 |    1)  24219; [ch0] Login VOS (proto:8, cid:176283685, uid:10341022, ts:1513498333144, ticket size:120 ds:1 stream:+A+VH) 2: 107.155.14.130:4003
+INFO    ( 3:12:13:169 |   24)  24219; [vocs/u] **responsed from 183.236.26.162:8000, 3 vos, elapsed 1454, server ts 1513498333493, wan ip 71.241.215.78
+INFO    ( 3:12:13:170 |    1)  24219; [vos] added server: 107.151.160.8:4005
+INFO    ( 3:12:13:171 |    1)  24219; [vos] added server: 69.172.244.35:4002
+INFO    ( 3:12:13:171 |    0)  24219; [vos] added server: 107.155.14.132:4004
+INFO    ( 3:12:13:204 |   33)  24219; [ch0] **VOS response to login request (res 0 elapsed 1488, server ts 1513498333633, s-c:429) from 107.155.14.130:4003
+INFO    ( 3:12:13:205 |    1)  24219; [che] start call begins
+INFO    ( 3:12:13:205 |    0)  24219; Set Application Mode in RTC Engine to No. 0
+INFO    ( 3:12:13:205 |    0)  24219; Set Application Mode details solo 0, extend 0, audience 0, br 128000, streamType 0
+INFO    ( 3:12:13:205 |    0)  24219; SetCodec by type : No. 85
+WARN    ( 3:12:13:209 |    4)  24219; SetRecordingChannel() unable to set the recording channel (error=10028)
+INFO    ( 3:12:13:209 |    0)  24219; [JNI] recording device is set to 7
+INFO    ( 3:12:13:209 |    0)  24219; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 3:12:13:210 |    1)  24219; SetRecordingDevicePart2:SetStereoRecording, stereo recording=0
+INFO    ( 3:12:13:210 |    0)  24219; [JNI] audioMode is set to 3
+INFO    ( 3:12:13:282 |   72)  23992; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 3:12:13:289 |    7)  23992; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 3:12:13:413 |  124)  24219; [JNI] playback sample rate is set to (16000)
+INFO    ( 3:12:13:454 |   41)  24219; StartPlayout complete
+INFO    ( 3:12:13:455 |    1)  24219; output: NOT_SUPPORTED
+ERROR   ( 3:12:13:621 |  166)  24219; [AudioDevice Java] AcousticEchoCanceler.getEnabled: false
+INFO    ( 3:12:13:621 |    0)  24219; [JNI] recording sample rate is set to (16000)
+INFO    ( 3:12:13:702 |   81)  24219; StartRecording complete
+INFO    ( 3:12:13:711 |    9)  24219; SetHowlingControl enable = 1
+INFO    ( 3:12:13:711 |    0)  24219; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 3:12:13:711 |    0)  24219; MID = 69, Routing = 3
+INFO    ( 3:12:13:725 |   14)  24218; [AudioRoute] reset audio routing, default routing: Speakerphone, current routing: Default, target routing: Speakerphone, actual system routing: Speakerphone
+INFO    ( 3:12:13:726 |    1)  24219; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 3:12:13:727 |    1)  24218; [AudioRoute] set audio output routing from Default to Speakerphone
+INFO    ( 3:12:13:726 |    0)  24219; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 3:12:13:788 |   62)  24218; [AudioRoute] audio routing changed to Speakerphone
+INFO    ( 3:12:13:788 |    0)  24218; [AudioRoute] Monitor start: default routing: Speakerphone, current routing: Speakerphone
+INFO    ( 3:12:13:897 |  109)  24219; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 3:12:13:898 |    1)  24219; setCodecRates: set frame rate to 15
+INFO    ( 3:12:13:898 |    0)  24219; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 3:12:13:898 |    0)  24219; setCodecResolution: set to 640 x 480
+INFO    ( 3:12:14: 11 |    0)  24219; Use external video source
+ERROR   ( 3:12:14: 11 |    0)  24219; Assert external camera failed! Force using 1025
+INFO    ( 3:12:14: 11 |    0)  24219; Create participant 0
+INFO    ( 3:12:14: 11 |    0)  24219; startCapture: device? 1025 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    ( 3:12:14: 24 |   13)  24219; startCapture: startCapture success
+INFO    ( 3:12:14: 24 |    0)  24219; EnableLowBitRateStream: dual streams enabled 0
+INFO    ( 3:12:14: 24 |    0)  24219; RequestEncodeKeyFrame
+INFO    ( 3:12:14: 24 |    0)  24219; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 3:12:14: 24 |    0)  24219; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 3:12:14: 24 |    0)  24219; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 3:12:14: 24 |    0)  24219; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 3:12:14: 24 |    0)  24219; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+INFO    ( 3:12:14: 25 |    1)  24219; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 3:12:14: 25 |    0)  24219; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 3:12:14: 25 |    0)  24219; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 3:12:14: 25 |    0)  24219; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 3:12:14: 25 |    0)  24219; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+ERROR   ( 3:12:14: 25 |    0)  24219; [che] Unable to start render local video, res=-1
+INFO    ( 3:12:14: 25 |    0)  24219; [che] start call returns -1, elapsed 820
+ERROR   ( 3:12:14: 25 |    0)  24219; [che] error calling startCall()
+INFO    ( 3:12:14: 26 |    1)  24588; Thread with name:ViECaptureThread started 
+INFO    ( 3:12:14: 52 |   26)  24219; join channel success: cname '042b50c1-e95a-4357-9168-298eed338dce' uid 10341022 elapsed 2336
+INFO    ( 3:12:14: 59 |    7)  24219; [rp] {"che.audio.output.routing":3}
+INFO    ( 3:12:14: 93 |   34)  24219; SetHowlingControl enable = 1
+INFO    ( 3:12:14: 94 |    1)  24219; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 3:12:14: 94 |    0)  24219; MID = 69, Routing = 3
+INFO    ( 3:12:14: 94 |    0)  24219; onFirstLocalAudioFrame codec 85 elapsed 2378
+INFO    ( 3:12:14:139 |   45)  24059; [che] onVideoSizeChanged: uid 0 640x480 rotate 270
+INFO    ( 3:12:14:164 |   25)  24219; [rlbs/u] responsed from 221.228.78.123:9700 with servers 69.28.51.141:8000
+INFO    ( 3:12:14:165 |    1)  24219; [vocs/u] **responsed from 221.228.202.134:8000, 3 vos, elapsed 2449, server ts 1513498333629, wan ip 71.241.215.78
+INFO    ( 3:12:14:166 |    1)  24219; [vos] added server: 107.151.160.28:4010
+INFO    ( 3:12:14:166 |    0)  24219; [vos] added server: 69.172.244.39:4006
+INFO    ( 3:12:14:166 |    0)  24219; [vos] added server: 107.155.14.131:4008
+INFO    ( 3:12:14:221 |   55)  24219; [ch0] rtt: 164
+INFO    ( 3:12:15:205 |    0)  24219; notifyPeerCount: cnt 0
+INFO    ( 3:12:16:717 |  512)  24219; [rs] **report stats: seq: 7, report list size 7, tx/rx: 1490/48, cache size: 0, report success rate: -1
+INFO    ( 3:12:16:737 |   20)  24219; [pm] peer 10233251 is online
+INFO    ( 3:12:16:738 |    1)  24219; notifyPeerCount: cnt 1
+INFO    ( 3:12:16:739 |    1)  24219; SetCodec by type : No. 82
+INFO    ( 3:12:16:745 |    6)  24219; setNetEQMinimumPlayoutDelay delay(300)
+INFO    ( 3:12:16:761 |   16)  24219; [rp] {"rtc.audio.mute_peer":{"uid":10233251,"mute":true}}
+INFO    ( 3:12:16:766 |    5)  24219; [pm] mute audio peer 10233251 muted true
+INFO    ( 3:12:16:766 |    0)  24219; [ds]: ver 2 ds '{"streamType":5,"peers":[[10233251,4]]}'
+INFO    ( 3:12:16:766 |    0)  24219; [ch0] sync (cid:176283685, uid:10341022, sync:2): 107.155.14.130:4003
+INFO    ( 3:12:16:984 |  218)  24219; Create participant 10233251
+INFO    ( 3:12:16:998 |   14)  23992; API call to create data stream, id = 49153
+INFO    ( 3:12:17: 86 |    0)  24570; Encoder Bcm Connection Success
+INFO    ( 3:12:17:613 |  527)  24219; [pm] peer 10233251 has enabled video
+INFO    ( 3:12:17:672 |   59)  24219; Codec: VP8, Payload type 100, Height 360, Width 640, Bitrate 200,Framerate 15.
+INFO    ( 3:12:17:672 |    0)  24219; Codec: H264, Payload type 107, Height 360, Width 640, Bitrate 200,Framerate 15.
+INFO    ( 3:12:17:695 |   23)  24598; Thread with name:videoDecodeThread started 
+ERROR   ( 3:12:18:884 |  189)  24532; Warning, Record been ocupied 0
+INFO    ( 3:12:19:440 |    0)  24219; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 3:12:19:441 |    1)  24219; setMuteStatus, muted: Off
+INFO    ( 3:12:19:583 |  142)  24219; [rp] {"rtc.video.preview":false}
+ERROR   ( 3:12:19:583 |    0)  24219; API call failed to stop video preview due to not in idle mode
+INFO    ( 3:12:19:621 |   38)  24536; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    ( 3:12:19:624 |    3)  24598; Destroy decoder.
+INFO    ( 3:12:19:630 |    6)  23992; [AudioRoute] Monitor stopped
+INFO    ( 3:12:19:630 |    0)  23992; API call to leave channel
+INFO    ( 3:12:19:630 |    0)  24219; [cm] emit leave channel signal
+INFO    ( 3:12:19:665 |   35)  24598; Finish init decoder.
+INFO    ( 3:12:19:834 |  169)  24598; [che] onVideoSizeChanged: uid 10233251 640x480 rotate 270
+INFO    ( 3:12:19:883 |   49)  24532; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = -1
+INFO    ( 3:12:19:956 |   73)  24219; stopLocalRender: Cannot stop renderer 4097 (not exist)
+WARN    ( 3:12:19:956 |    0)  24219; DeregisterFrameCallback 0x0xb79c1274 not found
+INFO    ( 3:12:19:957 |    1)  24588; Thread with name:ViECaptureThread stopped
+INFO    ( 3:12:19:969 |   12)  24219; stopCapture: stopCapture success
+INFO    ( 3:12:19:978 |    9)  24219; stopRemoteRender
+INFO    ( 3:12:19:978 |    0)  24219; stopRemoteVideo: uid=10233251
+WARN    ( 3:12:19:978 |    0)  24219; VideoEngine::StopRender() VideoEngine haven't StartRender
+INFO    ( 3:12:19:978 |    0)  24598; Thread with name:videoDecodeThread stopped
+INFO    ( 3:12:20:  0 |    0)  24219; Destroy decoder.
+INFO    ( 3:12:20:  1 |    0)  24219; Destroy decoder.
+INFO    ( 3:12:20:  4 |    3)  24219; [che] stopCall begins
+INFO    ( 3:12:20: 92 |   88)  24219; StopRecording complete
+INFO    ( 3:12:20:146 |   54)  24219; StopPlayout complete
+INFO    ( 3:12:20:146 |    0)  24219; [JNI] audioMode is set to 0
+INFO    ( 3:12:20:265 |  119)  24219; [che] stop call returns 0, elapsed 261
+INFO    ( 3:12:20:265 |    0)  24219; [rs] **report stats: seq: 12, report list size 12, tx/rx: 2378/144, cache size: 0, report success rate: 0
+INFO    ( 3:12:20:273 |    8)  24219; **CALL STATS: duration 7s, tx 63.287K bytes, rx 16.500K bytes, total 79.787K bytes
+INFO    ( 3:12:20:289 |   16)  24219; CacheManager: save cache to storage elapsed 13
+INFO    ( 3:12:20:290 |    1)  24219; [ch0] vos destroyed
+INFO    ( 3:12:20:293 |    3)  24219; delRef of media engine, ref=0
+INFO    ( 3:12:20:294 |    1)  24219; [che] chat engine destroying
+INFO    ( 3:12:20:294 |    0)  24219; stopLocalRender: Cannot stop renderer -1 (not exist)
+WARN    ( 3:12:20:294 |    0)  24219; stopCapture: VideoEngine haven't startCapture
+INFO    ( 3:12:20:294 |    0)  24219; stopRemoteRender
+INFO    ( 3:12:20:294 |    0)  24219; stopRemoteVideo: uid=10233251
+WARN    ( 3:12:20:294 |    0)  24219; VideoEngine::StopRender() VideoEngine haven't StartRender
+INFO    ( 3:12:20:295 |    1)  24219; [che] stopCall begins
+INFO    ( 3:12:20:295 |    0)  24219; [che] stop call returns -1, elapsed 0
+INFO    ( 3:12:20:295 |    0)  24219; stopLocalRender: Cannot stop renderer -1 (not exist)
+INFO    ( 3:12:20:295 |    0)  24219; stopRemoteRender
+INFO    ( 3:12:20:295 |    0)  24219; stopRemoteVideo: uid=10233251
+WARN    ( 3:12:20:295 |    0)  24219; VideoEngine::StopRender() VideoEngine haven't StartRender
+WARN    ( 3:12:20:295 |    0)  24219; stopCapture: VideoEngine haven't startCapture
+INFO    ( 3:12:20:295 |    0)  24569; Thread with name:VideoProcessThread stopped
+WARN    ( 3:12:20:306 |   11)  24219; terminate: VideoEngine haven't init
+INFO    ( 3:12:20:311 |    5)  24219; [DEBUGG] ViERenderManager Destructor, engine_id: 0
+INFO    ( 3:12:20:313 |    2)  24570; Thread with name:VideoEncodeThread stopped
+INFO    ( 3:12:20:342 |   29)  24219; Delete participant 10233251
+INFO    ( 3:12:20:344 |    2)  24537; Thread with name:EngineMonitorThread stopped
+INFO    ( 3:12:20:354 |   10)  24532; Thread with name:jni_audio_capture_thread stopped
+INFO    ( 3:12:20:366 |   12)  24536; Thread with name:jni_audio_render_thread stopped
+INFO    ( 3:12:20:376 |   10)  24219; SetAndroidObjects: JVM is NULL, assuming deinit
+INFO    ( 3:12:20:382 |    6)  24219; [che] chat engine destroyed
+INFO    ( 3:12:20:383 |    1)  24219; ***CALL END
+INFO    ( 3:12:20:384 |    1)  24219; [rp] {"rtc.video.preview":false}
+INFO    ( 3:12:20:384 |    0)  24219; API call to stop video preview
+INFO    ( 3:12:20:520 |  136)  23992; [AudioRoute] setState: state not changed!
+INFO    ( 3:12:20:520 |    0)  24219; [rp] {"rtc.video.preview":false}
+INFO    ( 3:12:20:520 |    0)  24219; API call to stop video preview
+INFO    ( 3:12:20:520 |    0)  23992; API call to leave channel
+ERROR   ( 3:12:20:521 |    1)  24219; failed to leave channel due to NOT in CALL
+INFO    ( 3:12:20:523 |    2)  24219; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 3:12:20:566 |   43)  24219; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 3:12:26:720 |  154)  24219; [rs] dns parse retry time: 1
+INFO    ( 3:12:30:261 |    0)  24219; [ps] error received, globalPolicyRequest, err 14
+INFO    ( 3:12:30:262 |    1)  24219; [ps] udpate priority: 1
+INFO    ( 3:12:30:264 |    2)  24219; [ps] error received, vendorPolicyRequest, err 14
+INFO    ( 3:12:30:264 |    0)  24219; [ps] udpate priority: 3
+INFO    ( 3:12:30:264 |    0)  24219; [ps] error received, versionPolicyRequest, err 14
+INFO    ( 3:12:30:264 |    0)  24219; [ps] udpate priority: 4
+INFO    ( 3:12:30:265 |    1)  24219; [ps] error received, deviceIndexRequest, err 14
+INFO    ( 3:12:41:753 |  488)  24219; [rs] dns parse retry time: 2
+INFO    ( 3:12:46:766 |   13)  24219; [rs] **report stats: seq: 12, report list size 12, tx/rx: 3668/576, cache size: 0, report success rate: 100
+INFO    ( 3:12:46:875 |  109)  24219; [dns] parsed ip 69.28.51.141
+INFO    ( 3:12:46:881 |    6)  24219; [rs] dns parse result code: 0, servers size: 1
+INFO    ( 3:12:56:729 |    0)  24219; [rs] dns parse retry time: 3
+INFO    ( 3:13:15:482 |    0)  24219; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 3:13:16:763 |  281)  24219; [rs] **report stats: seq: 12, report list size 12, tx/rx: 3668/576, cache size: 0, report success rate: 100
+INFO    ( 3:13:22:327 |    0)  24219; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 3:13:22:611 |  284)  24219; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 3:13:26: 61 |    0)  24219; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 3:13:37: 99 |   38)  24219; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 3:13:37:127 |   28)  24219; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 3:13:40:965 |  838)  24219; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+Local Date: Sun Dec 17 08:38:55 2017
+Build info: Oct 20 2017 12:14:21 r
+
+INFO    ( 8:38:55:654 |  361)   3636; [AudioRoute] Bluetooth SCO device disconnected
+INFO    ( 8:38:55:670 |   16)   3636; [RtcEngine] system phone call end
+INFO    ( 8:38:55:670 |    0)   4157; [rp] {"rtc.audio.enabled":true,"che.disable.audio":false}
+INFO    ( 8:38:55:671 |    1)   3636; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 8:38:55:672 |    1)   3636; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 8:38:55:691 |   19)   3636; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 8:38:55:692 |    1)   3636; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 8:38:55:890 |  198)   3636; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 8:38:55:892 |    2)   3636; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 8:38:55:901 |    9)   3636; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 8:38:55:902 |    1)   3636; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 8:39: 0:178 |    0)   4157; [dns] parsed ip 119.9.116.105
+INFO    ( 8:39: 0:201 |   23)   4157; [dns] parsed ip 23.253.229.83
+INFO    ( 8:39:13:  3 |    0)   4157; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 8:39:13:353 |  350)   3636; Attach external video source to pipeline
+INFO    ( 8:39:13:356 |    3)   4157; [rp] {"che.audio.set_capture_raw_audio_format":{"sampleRate":44100,"channelCnt":1,"mode":0,"samplesPerCall":1024}}
+INFO    ( 8:39:13:356 |    0)   4157; [rp] {"che.video.enableRemoteViewMirror":true}
+INFO    ( 8:39:13:409 |   53)   3636; API call to join channel 'ad957b53-4d0c-4271-b5ce-50e4da5a73b7' uid 10341022, SDK ver 1.14.0 build 210, device info 'zte/z717vl/z717vl/lavender/22/3.10.49-g75d3f9e'
+INFO    ( 8:39:13:410 |    1)   4157; ***CALL BEGIN: appid:'d6****************************07' cname:'ad957b53-4d0c-4271-b5ce-50e4da5a73b7' info:'' sid:'425898BC0E5749E9B225A40C3786D62B'
+INFO    ( 8:39:13:410 |    0)   4157; addRef of media engine, ref=1
+INFO    ( 8:39:13:412 |    2)   4157; [che] create chat engine, ctx:0x8f503b74
+INFO    ( 8:39:13:414 |    2)   4157; use android device recording
+INFO    ( 8:39:13:417 |    3)   4157; [MYDEBUG] large group call false
+INFO    ( 8:39:13:417 |    0)   4157; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    ( 8:39:13:417 |    0)   4157; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    ( 8:39:13:438 |   21)   4157; output: kPlatformDefaultAudio
+INFO    ( 8:39:13:531 |   93)   4157;   OS info: Android
+INFO    ( 8:39:13:591 |   60)   4157; [JNI] use profiled sampling rate : 16000
+INFO    ( 8:39:13:607 |   16)   4430; Thread with name:jni_audio_capture_thread started 
+INFO    ( 8:39:13:608 |    1)   4157; [JNI] playback device is set to 0
+INFO    ( 8:39:13:608 |    0)   4157; [JNI] recording device is set to 0
+INFO    ( 8:39:13:608 |    0)   4157; Set stereo playback available = 0
+INFO    ( 8:39:13:608 |    0)   4157; StereoPlayoutIsAvailable(), output: available=0
+INFO    ( 8:39:13:608 |    0)   4157; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 8:39:13:615 |    7)   4432; Thread with name:EngineMonitorThread started 
+INFO    ( 8:39:13:620 |    5)   4157; setMuteStatus, muted: Off
+INFO    ( 8:39:13:620 |    0)   4157; setMuteOutput, muted: false
+WARN    ( 8:39:13:620 |    0)   4157; setMicSensitivity failed, legal values are between [0, 10]
+INFO    ( 8:39:13:620 |    0)   4157; Audio Engine Init success
+INFO    ( 8:39:13:621 |    1)   4431; Thread with name:jni_audio_render_thread started 
+INFO    ( 8:39:13:636 |   15)   4157; [MediaCodecVideoEncoder] Found candidate encoder OMX.qcom.video.encoder.avc
+INFO    ( 8:39:13:649 |   13)   4157; Available number of cores:4
+INFO    ( 8:39:13:650 |    1)   4157; init: feature prerotation disabled
+INFO    ( 8:39:13:650 |    0)   4157; init: no custom rotation
+INFO    ( 8:39:13:839 |  189)   4157; Agora Engine video codec set to custom mode role mode 0
+INFO    ( 8:39:13:839 |    0)   4157; Agora Engine video codec index 1
+INFO    ( 8:39:13:839 |    0)   4157; Agora Engine video stream type = 0
+INFO    ( 8:39:13:843 |    4)   4466; Thread with name:VideoEncodeThread started 
+INFO    ( 8:39:13:843 |    0)   4157; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 8:39:13:843 |    0)   4157; h264WebInteropEnable: enable 0
+INFO    ( 8:39:13:843 |    0)   4157; setMaxVideoBitrate: max bitrate=0
+INFO    ( 8:39:13:843 |    0)   4157; more fec enable 0
+INFO    ( 8:39:13:844 |    1)   4157; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 8:39:13:844 |    0)   4157; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 8:39:13:843 |    0)   4467; Thread with name:VideoProcessThread started 
+INFO    ( 8:39:13:858 |   14)   4157; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 8:39:13:858 |    0)   4157; setCodecRates: set frame rate to 15
+INFO    ( 8:39:13:858 |    0)   4157; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 8:39:13:858 |    0)   4157; setCodecResolution: set to 640 x 480
+INFO    ( 8:39:13:858 |    0)   4157; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 8:39:13:859 |    1)   4466; Thread with name:VideoEncodeThread stopped
+INFO    ( 8:39:13:870 |   11)   4157; [che] chat engine initialized
+INFO    ( 8:39:13:870 |    0)   4468; Thread with name:VideoEncodeThread started 
+INFO    ( 8:39:13:873 |    3)   4157; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    ( 8:39:13:873 |    0)   4157; [tactics] parse config for beckon error for tactics size:15
+INFO    ( 8:39:13:877 |    4)   4157; [vocs] vocs initialized
+WARN    ( 8:39:13:881 |    4)   4157; bind error: Permission denied
+INFO    ( 8:39:13:882 |    1)   4157; CacheManager: save cache to storage elapsed 0
+INFO    ( 8:39:13:882 |    0)   4157; [cm] emit join channel signal, size=3
+INFO    ( 8:39:13:883 |    1)   4157; CacheManager: save cache to storage elapsed 0
+INFO    ( 8:39:13:883 |    0)   4157; [rs] report server ip: 223.111.12.227:8000
+INFO    ( 8:39:13:884 |    1)   4157; [rlbs] selected: 221.228.78.123:9700
+INFO    ( 8:39:13:884 |    0)   4157; [rlbs] request rs list from 221.228.78.123:9700.......
+INFO    ( 8:39:13:886 |    2)   4157; [vocs] lookup channel...
+INFO    ( 8:39:13:886 |    0)   4157; [vocs] selected: 183.236.26.162:8000
+INFO    ( 8:39:13:888 |    2)   4157; connecting to 183.236.26.162:8000 handle b7c14938, 235
+INFO    ( 8:39:13:888 |    0)   4157; [vocs] creating channel with 183.236.26.162:8000, ts 1513517953888.......
+INFO    ( 8:39:13:888 |    0)   4157; [vocs] selected: 119.9.92.49:8000
+INFO    ( 8:39:13:888 |    0)   4157; [vocs] creating channel with 119.9.92.49:8000, ts 1513517953888.......
+INFO    ( 8:39:13:889 |    1)   4157; [vocs] selected: 221.228.202.134:8000
+INFO    ( 8:39:13:889 |    0)   4157; [vocs] creating channel with 221.228.202.134:8000, ts 1513517953889.......
+INFO    ( 8:39:13:890 |    1)   4157; [rp] {"che.video.local.rotate_video":{"degree":270,"rotation":0}}
+INFO    ( 8:39:14:155 |    0)   4157; [vocs/u] **responsed from 119.9.92.49:8000, 3 vos, elapsed 745, server ts 1513517954646, wan ip 71.241.215.78
+INFO    ( 8:39:14:156 |    1)   4157; [vos] added server: 107.151.160.28:4005
+INFO    ( 8:39:14:156 |    0)   4157; [vos] added server: 107.155.14.130:4003
+INFO    ( 8:39:14:156 |    0)   4157; [vos] added server: 23.236.120.133:4003
+INFO    ( 8:39:14:156 |    0)   4157; [ch0] vos initialized
+INFO    ( 8:39:14:157 |    1)   4157; [vos] selected: 23.236.120.133:4003
+INFO    ( 8:39:14:157 |    0)   4157; [ds]: ver 1 ds '{"streamType":5}'
+INFO    ( 8:39:14:157 |    0)   4157; [ch0] Login VOS (proto:8, cid:2092191148, uid:10341022, ts:1513517954157, ticket size:120 ds:1 stream:+A+VH) 2: 23.236.120.133:4003
+INFO    ( 8:39:14:206 |   49)   4157; [ch0] **VOS response to login request (res 0 elapsed 796, server ts 1513517954811, s-c:605) from 23.236.120.133:4003
+INFO    ( 8:39:14:207 |    1)   4157; [che] start call begins
+INFO    ( 8:39:14:207 |    0)   4157; Set Application Mode in RTC Engine to No. 0
+INFO    ( 8:39:14:207 |    0)   4157; Set Application Mode details solo 0, extend 0, audience 0, br 128000, streamType 0
+INFO    ( 8:39:14:207 |    0)   4157; SetCodec by type : No. 85
+INFO    ( 8:39:14:213 |    6)   3636; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+WARN    ( 8:39:14:213 |    0)   4157; SetRecordingChannel() unable to set the recording channel (error=10028)
+INFO    ( 8:39:14:213 |    0)   4157; [JNI] recording device is set to 7
+INFO    ( 8:39:14:213 |    0)   4157; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 8:39:14:213 |    0)   4157; SetRecordingDevicePart2:SetStereoRecording, stereo recording=0
+INFO    ( 8:39:14:213 |    0)   4157; [JNI] audioMode is set to 3
+INFO    ( 8:39:14:214 |    1)   3636; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 8:39:14:348 |  134)   4157; [JNI] playback sample rate is set to (16000)
+INFO    ( 8:39:14:352 |    4)   4157; StartPlayout complete
+INFO    ( 8:39:14:353 |    1)   4157; output: NOT_SUPPORTED
+ERROR   ( 8:39:14:406 |   53)   4157; [AudioDevice Java] AcousticEchoCanceler.getEnabled: false
+INFO    ( 8:39:14:406 |    0)   4157; [JNI] recording sample rate is set to (16000)
+INFO    ( 8:39:14:432 |   26)   4157; StartRecording complete
+INFO    ( 8:39:14:436 |    4)   4157; SetHowlingControl enable = 1
+INFO    ( 8:39:14:437 |    1)   4157; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 8:39:14:437 |    0)   4157; MID = 69, Routing = 3
+INFO    ( 8:39:14:437 |    0)   4157; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 8:39:14:437 |    0)   4157; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 8:39:14:457 |   20)   4157; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 8:39:14:457 |    0)   4157; setCodecRates: set frame rate to 15
+INFO    ( 8:39:14:457 |    0)   4157; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 8:39:14:457 |    0)   4157; setCodecResolution: set to 640 x 480
+INFO    ( 8:39:14:472 |   15)   4156; [AudioRoute] reset audio routing, default routing: Speakerphone, current routing: Default, target routing: Speakerphone, actual system routing: Speakerphone
+INFO    ( 8:39:14:472 |    0)   4156; [AudioRoute] set audio output routing from Default to Speakerphone
+INFO    ( 8:39:14:474 |    2)   4156; [AudioRoute] audio routing changed to Speakerphone
+INFO    ( 8:39:14:474 |    0)   4156; [AudioRoute] Monitor start: default routing: Speakerphone, current routing: Speakerphone
+INFO    ( 8:39:14:486 |   12)   4157; Use external video source
+ERROR   ( 8:39:14:486 |    0)   4157; Assert external camera failed! Force using 1025
+INFO    ( 8:39:14:486 |    0)   4157; Create participant 0
+INFO    ( 8:39:14:487 |    1)   4157; startCapture: device? 1025 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    ( 8:39:14:487 |    0)   4482; Thread with name:ViECaptureThread started 
+INFO    ( 8:39:14:487 |    0)   4157; startCapture: startCapture success
+INFO    ( 8:39:14:488 |    1)   4157; EnableLowBitRateStream: dual streams enabled 0
+INFO    ( 8:39:14:488 |    0)   4157; RequestEncodeKeyFrame
+INFO    ( 8:39:14:488 |    0)   4157; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 8:39:14:488 |    0)   4157; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 8:39:14:488 |    0)   4157; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 8:39:14:488 |    0)   4157; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 8:39:14:488 |    0)   4157; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+INFO    ( 8:39:14:489 |    1)   4157; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 8:39:14:490 |    1)   4157; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 8:39:14:490 |    0)   4157; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 8:39:14:490 |    0)   4157; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 8:39:14:490 |    0)   4157; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+ERROR   ( 8:39:14:490 |    0)   4157; [che] Unable to start render local video, res=-1
+INFO    ( 8:39:14:490 |    0)   4157; [che] start call returns -1, elapsed 283
+ERROR   ( 8:39:14:490 |    0)   4157; [che] error calling startCall()
+INFO    ( 8:39:14:490 |    0)   4157; join channel success: cname 'ad957b53-4d0c-4271-b5ce-50e4da5a73b7' uid 10341022 elapsed 1081
+INFO    ( 8:39:14:491 |    1)   4157; [rp] {"che.audio.output.routing":3}
+INFO    ( 8:39:14:492 |    1)   4157; SetHowlingControl enable = 1
+INFO    ( 8:39:14:492 |    0)   4157; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 8:39:14:492 |    0)   4157; MID = 69, Routing = 3
+INFO    ( 8:39:14:492 |    0)   4157; [vocs/u] **responsed from 221.228.202.134:8000, 3 vos, elapsed 1082, server ts 1513517954808, wan ip 71.241.215.78
+INFO    ( 8:39:14:493 |    1)   4157; [vos] added server: 69.172.244.35:4005
+INFO    ( 8:39:14:493 |    0)   4157; [vos] added server: 107.155.14.131:4004
+INFO    ( 8:39:14:493 |    0)   4157; [vos] added server: 23.236.120.133:4005
+INFO    ( 8:39:14:534 |   41)   4157; [ch0] rtt: 43
+INFO    ( 8:39:14:614 |   80)   4157; onFirstLocalAudioFrame codec 85 elapsed 1204
+INFO    ( 8:39:14:734 |  120)   3732; [che] onVideoSizeChanged: uid 0 640x480 rotate 0
+INFO    ( 8:39:14:974 |  240)   4157; [rp] {"che.video.local.rotate_video":{"degree":275,"rotation":5}}
+INFO    ( 8:39:14:984 |   10)   3732; [che] onVideoSizeChanged: uid 0 640x480 rotate 270
+INFO    ( 8:39:15:209 |    0)   4157; [rp] {"che.video.local.rotate_video":{"degree":270,"rotation":0}}
+INFO    ( 8:39:16:206 |    0)   4157; notifyPeerCount: cnt 0
+INFO    ( 8:39:18:411 |  205)   4157; [rs] **report stats: seq: 8, report list size 8, tx/rx: 1708/0, cache size: 0, report success rate: -1
+INFO    ( 8:39:18:412 |    1)   4157; [rlbs] waiting for response timeout, size 1
+INFO    ( 8:39:18:412 |    0)   4157; [rlbs] selected: 221.228.78.123:9700
+INFO    ( 8:39:18:412 |    0)   4157; [rlbs] request rs list from 221.228.78.123:9700.......
+INFO    ( 8:39:18:466 |   54)   4157; [dns] parsed ip 69.28.51.138
+INFO    ( 8:39:18:466 |    0)   4157; [dns] parsed ip 70.39.189.65
+INFO    ( 8:39:18:466 |    0)   4157; [dns] parsed ip 119.9.92.49
+INFO    ( 8:39:18:492 |   26)   4157; [dns] parsed ip 70.39.189.65
+INFO    ( 8:39:18:493 |    1)   4157; [dns] parsed ip 69.28.51.141
+INFO    ( 8:39:18:493 |    0)   4157; [rs] dns parse result code: 0, servers size: 1
+INFO    ( 8:39:18:493 |    0)   4157; [rs] dns parse and selected server: 223.111.12.227
+INFO    ( 8:39:18:713 |  220)   4157; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 8:39:18:713 |    0)   4157; setMuteStatus, muted: Off
+INFO    ( 8:39:18:759 |   46)   4157; [rp] {"rtc.video.preview":false}
+ERROR   ( 8:39:18:760 |    1)   4157; API call failed to stop video preview due to not in idle mode
+INFO    ( 8:39:18:790 |   30)   3636; [AudioRoute] Monitor stopped
+INFO    ( 8:39:18:790 |    0)   3636; API call to leave channel
+INFO    ( 8:39:18:790 |    0)   4157; [cm] emit leave channel signal
+INFO    ( 8:39:19:114 |    0)   4157; stopLocalRender: Cannot stop renderer 4097 (not exist)
+WARN    ( 8:39:19:114 |    0)   4157; DeregisterFrameCallback 0x0xb7b95834 not found
+INFO    ( 8:39:19:114 |    0)   4482; Thread with name:ViECaptureThread stopped
+INFO    ( 8:39:19:124 |   10)   4157; stopCapture: stopCapture success
+INFO    ( 8:39:19:124 |    0)   4157; stopRemoteRender
+INFO    ( 8:39:19:125 |    1)   4157; [che] stopCall begins
+INFO    ( 8:39:19:154 |   29)   4157; StopRecording complete
+INFO    ( 8:39:19:160 |    6)   4157; StopPlayout complete
+INFO    ( 8:39:19:160 |    0)   4157; [JNI] audioMode is set to 0
+INFO    ( 8:39:19:319 |  159)   4157; [che] stop call returns 0, elapsed 194
+INFO    ( 8:39:19:319 |    0)   4157; [rs] **report stats: seq: 11, report list size 11, tx/rx: 3147/0, cache size: 0, report success rate: 0
+INFO    ( 8:39:19:320 |    1)   4157; **CALL STATS: duration 5s, tx 58.96K bytes, rx 1.566K bytes, total 59.662K bytes
+INFO    ( 8:39:19:322 |    2)   4157; CacheManager: save cache to storage elapsed 0
+INFO    ( 8:39:19:322 |    0)   4157; [ch0] vos destroyed
+INFO    ( 8:39:19:323 |    1)   4157; delRef of media engine, ref=0
+INFO    ( 8:39:19:327 |    4)   4157; [che] chat engine destroying
+INFO    ( 8:39:19:327 |    0)   4157; stopLocalRender: Cannot stop renderer -1 (not exist)
+WARN    ( 8:39:19:327 |    0)   4157; stopCapture: VideoEngine haven't startCapture
+INFO    ( 8:39:19:327 |    0)   4157; stopRemoteRender
+INFO    ( 8:39:19:327 |    0)   4157; [che] stopCall begins
+INFO    ( 8:39:19:327 |    0)   4157; [che] stop call returns -1, elapsed 0
+INFO    ( 8:39:19:327 |    0)   4157; stopLocalRender: Cannot stop renderer -1 (not exist)
+INFO    ( 8:39:19:327 |    0)   4157; stopRemoteRender
+WARN    ( 8:39:19:327 |    0)   4157; stopCapture: VideoEngine haven't startCapture
+INFO    ( 8:39:19:328 |    1)   4467; Thread with name:VideoProcessThread stopped
+WARN    ( 8:39:19:338 |   10)   4157; terminate: VideoEngine haven't init
+INFO    ( 8:39:19:338 |    0)   4157; [DEBUGG] ViERenderManager Destructor, engine_id: 0
+INFO    ( 8:39:19:342 |    4)   4468; Thread with name:VideoEncodeThread stopped
+INFO    ( 8:39:19:362 |   20)   4432; Thread with name:EngineMonitorThread stopped
+INFO    ( 8:39:19:373 |   11)   4430; Thread with name:jni_audio_capture_thread stopped
+INFO    ( 8:39:19:374 |    1)   4431; Thread with name:jni_audio_render_thread stopped
+INFO    ( 8:39:19:381 |    7)   3636; [AudioRoute] setState: state not changed!
+INFO    ( 8:39:19:381 |    0)   3636; API call to leave channel
+INFO    ( 8:39:19:387 |    6)   4157; SetAndroidObjects: JVM is NULL, assuming deinit
+INFO    ( 8:39:19:391 |    4)   4157; [che] chat engine destroyed
+INFO    ( 8:39:19:394 |    3)   4157; ***CALL END
+INFO    ( 8:39:19:395 |    1)   4157; [rp] {"rtc.video.preview":false}
+INFO    ( 8:39:19:395 |    0)   4157; API call to stop video preview
+INFO    ( 8:39:19:395 |    0)   4157; [rp] {"rtc.video.preview":false}
+INFO    ( 8:39:19:395 |    0)   4157; API call to stop video preview
+ERROR   ( 8:39:19:395 |    0)   4157; failed to leave channel due to NOT in CALL
+INFO    ( 8:39:19:396 |    1)   4157; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 8:39:19:396 |    0)   4157; [rlbs/u] responsed from 221.228.78.123:9700 with servers 69.28.51.141:8000
+INFO    ( 8:39:21:612 |  216)   3636; Attach external video source to pipeline
+INFO    ( 8:39:21:614 |    2)   4157; [rp] {"che.audio.set_capture_raw_audio_format":{"sampleRate":44100,"channelCnt":1,"mode":0,"samplesPerCall":1024}}
+INFO    ( 8:39:21:614 |    0)   4157; [rp] {"che.video.enableRemoteViewMirror":true}
+INFO    ( 8:39:21:649 |   35)   3636; API call to join channel '653495b6-cf6b-468b-9d7d-8fb7eba1e264' uid 10341022, SDK ver 1.14.0 build 210, device info 'zte/z717vl/z717vl/lavender/22/3.10.49-g75d3f9e'
+INFO    ( 8:39:21:650 |    1)   4157; ***CALL BEGIN: appid:'d6****************************07' cname:'653495b6-cf6b-468b-9d7d-8fb7eba1e264' info:'' sid:'F86B7DE239104EC6B42968B7014152CA'
+INFO    ( 8:39:21:650 |    0)   4157; addRef of media engine, ref=1
+INFO    ( 8:39:21:650 |    0)   4157; [che] create chat engine, ctx:0x8f503b74
+INFO    ( 8:39:21:651 |    1)   4157; use android device recording
+INFO    ( 8:39:21:652 |    1)   4157; [MYDEBUG] large group call false
+INFO    ( 8:39:21:652 |    0)   4157; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    ( 8:39:21:652 |    0)   4157; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    ( 8:39:21:657 |    5)   4157; output: kPlatformDefaultAudio
+INFO    ( 8:39:21:661 |    4)   4157;   OS info: Android
+INFO    ( 8:39:21:665 |    4)   4157; [JNI] use profiled sampling rate : 16000
+INFO    ( 8:39:21:667 |    2)   4157; [JNI] playback device is set to 0
+INFO    ( 8:39:21:667 |    0)   4157; [JNI] recording device is set to 0
+INFO    ( 8:39:21:668 |    1)   4157; Set stereo playback available = 0
+INFO    ( 8:39:21:668 |    0)   4157; StereoPlayoutIsAvailable(), output: available=0
+INFO    ( 8:39:21:668 |    0)   4157; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 8:39:21:667 |    0)   4494; Thread with name:jni_audio_render_thread started 
+INFO    ( 8:39:21:667 |    0)   4493; Thread with name:jni_audio_capture_thread started 
+INFO    ( 8:39:21:672 |    5)   4495; Thread with name:EngineMonitorThread started 
+INFO    ( 8:39:21:673 |    1)   4157; setMuteStatus, muted: Off
+INFO    ( 8:39:21:673 |    0)   4157; setMuteOutput, muted: false
+WARN    ( 8:39:21:673 |    0)   4157; setMicSensitivity failed, legal values are between [0, 10]
+INFO    ( 8:39:21:673 |    0)   4157; Audio Engine Init success
+INFO    ( 8:39:21:677 |    4)   4157; [MediaCodecVideoEncoder] Found candidate encoder OMX.qcom.video.encoder.avc
+INFO    ( 8:39:21:682 |    5)   4157; init: feature prerotation disabled
+INFO    ( 8:39:21:682 |    0)   4157; init: no custom rotation
+INFO    ( 8:39:21:682 |    0)   4157; Agora Engine video codec set to custom mode role mode 0
+INFO    ( 8:39:21:682 |    0)   4157; Agora Engine video codec index 1
+INFO    ( 8:39:21:682 |    0)   4157; Agora Engine video stream type = 0
+INFO    ( 8:39:21:683 |    1)   4496; Thread with name:VideoEncodeThread started 
+INFO    ( 8:39:21:684 |    1)   4157; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 8:39:21:684 |    0)   4157; h264WebInteropEnable: enable 0
+INFO    ( 8:39:21:684 |    0)   4157; setMaxVideoBitrate: max bitrate=0
+INFO    ( 8:39:21:684 |    0)   4157; more fec enable 0
+INFO    ( 8:39:21:684 |    0)   4157; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 8:39:21:684 |    0)   4157; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 8:39:21:684 |    0)   4157; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 8:39:21:684 |    0)   4157; setCodecRates: set frame rate to 15
+INFO    ( 8:39:21:684 |    0)   4157; setCodec: index=1 width=640 height=360 framerate=15
+INFO    ( 8:39:21:684 |    0)   4157; setCodecResolution: set to 640 x 480
+INFO    ( 8:39:21:685 |    1)   4157; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 8:39:21:685 |    0)   4497; Thread with name:VideoProcessThread started 
+INFO    ( 8:39:21:689 |    4)   4496; Thread with name:VideoEncodeThread stopped
+INFO    ( 8:39:21:702 |   13)   4502; Thread with name:VideoEncodeThread started 
+INFO    ( 8:39:21:703 |    1)   4157; [che] chat engine initialized
+INFO    ( 8:39:21:704 |    1)   4157; [tactics] config json version:20150101-0000 duallinkd:true poor:u
+INFO    ( 8:39:21:704 |    0)   4157; [tactics] parse config for beckon error for tactics size:15
+INFO    ( 8:39:21:705 |    1)   4157; [vocs] vocs initialized
+WARN    ( 8:39:21:710 |    5)   4157; bind error: Permission denied
+INFO    ( 8:39:21:710 |    0)   4157; CacheManager: save cache to storage elapsed 1
+INFO    ( 8:39:21:710 |    0)   4157; [cm] emit join channel signal, size=3
+INFO    ( 8:39:21:711 |    1)   4157; [vocs] lookup channel...
+INFO    ( 8:39:21:711 |    0)   4157; [vocs] selected: 183.236.26.162:8000
+INFO    ( 8:39:21:712 |    1)   4157; connecting to 183.236.26.162:8000 handle b78f87a8, 200
+INFO    ( 8:39:21:713 |    1)   4157; [vocs] creating channel with 183.236.26.162:8000, ts 1513517961712.......
+INFO    ( 8:39:21:713 |    0)   4157; [vocs] selected: 69.28.51.138:8000
+INFO    ( 8:39:21:713 |    0)   4157; [vocs] creating channel with 69.28.51.138:8000, ts 1513517961713.......
+INFO    ( 8:39:21:713 |    0)   4157; [vocs] selected: 221.228.202.134:8000
+INFO    ( 8:39:21:713 |    0)   4157; [vocs] creating channel with 221.228.202.134:8000, ts 1513517961713.......
+INFO    ( 8:39:21:843 |  130)   4157; [vocs/u] **responsed from 69.28.51.138:8000, 3 vos, elapsed 193, server ts 1513517962398, wan ip 71.241.215.78
+INFO    ( 8:39:21:844 |    1)   4157; [vos] added server: 69.172.244.36:4007
+INFO    ( 8:39:21:844 |    0)   4157; [vos] added server: 107.155.14.138:4008
+INFO    ( 8:39:21:844 |    0)   4157; [vos] added server: 23.236.120.143:4006
+INFO    ( 8:39:21:844 |    0)   4157; [ch0] vos initialized
+INFO    ( 8:39:21:844 |    0)   4157; [vos] selected: 23.236.120.143:4006
+INFO    ( 8:39:21:845 |    1)   4157; [ds]: ver 1 ds '{"streamType":5}'
+INFO    ( 8:39:21:845 |    0)   4157; [ch0] Login VOS (proto:8, cid:2966995110, uid:10341022, ts:1513517961845, ticket size:120 ds:1 stream:+A+VH) 2: 23.236.120.143:4006
+INFO    ( 8:39:21:906 |   61)   4157; [ch0] **VOS response to login request (res 0 elapsed 256, server ts 1513517962507, s-c:602) from 23.236.120.143:4006
+INFO    ( 8:39:21:907 |    1)   4157; [che] start call begins
+INFO    ( 8:39:21:907 |    0)   4157; Set Application Mode in RTC Engine to No. 0
+INFO    ( 8:39:21:907 |    0)   4157; Set Application Mode details solo 0, extend 0, audience 0, br 128000, streamType 0
+INFO    ( 8:39:21:907 |    0)   4157; SetCodec by type : No. 85
+WARN    ( 8:39:21:907 |    0)   4157; SetRecordingChannel() unable to set the recording channel (error=10028)
+INFO    ( 8:39:21:907 |    0)   4157; [JNI] recording device is set to 7
+INFO    ( 8:39:21:907 |    0)   4157; StereoRecordingIsAvailable(), output: available=0
+INFO    ( 8:39:21:907 |    0)   4157; SetRecordingDevicePart2:SetStereoRecording, stereo recording=0
+INFO    ( 8:39:21:907 |    0)   4157; [JNI] audioMode is set to 3
+INFO    ( 8:39:21:911 |    4)   3636; [AudioRoute] try to stopping bt sco 0[MODE_NORMAL] 3[SCO_DISCONNECTED] sco on: false
+INFO    ( 8:39:21:914 |    3)   3636; [AudioRoute] doStopBTSco 22 sco on: false
+INFO    ( 8:39:22: 77 |    0)   4157; [JNI] playback sample rate is set to (16000)
+INFO    ( 8:39:22: 88 |   11)   4157; StartPlayout complete
+INFO    ( 8:39:22: 88 |    0)   4157; output: NOT_SUPPORTED
+ERROR   ( 8:39:22:122 |   34)   4157; [AudioDevice Java] AcousticEchoCanceler.getEnabled: false
+INFO    ( 8:39:22:122 |    0)   4157; [JNI] recording sample rate is set to (16000)
+INFO    ( 8:39:22:131 |    9)   4157; StartRecording complete
+INFO    ( 8:39:22:135 |    4)   4157; SetHowlingControl enable = 1
+INFO    ( 8:39:22:135 |    0)   4157; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 8:39:22:135 |    0)   4157; MID = 69, Routing = 3
+INFO    ( 8:39:22:135 |    0)   4157; [che] applyVideoProfile: 640x480 15 fps 500 kbps
+INFO    ( 8:39:22:135 |    0)   4157; validateVideoParameters: validate video parameters resolution 640x480, fps 15, rate 500000
+INFO    ( 8:39:22:135 |    0)   4157; setMaxVideoBitrate: max bitrate=500000
+INFO    ( 8:39:22:135 |    0)   4157; setCodecRates: set frame rate to 15
+INFO    ( 8:39:22:135 |    0)   4157; setCodec: index=1 width=640 height=480 framerate=15
+INFO    ( 8:39:22:135 |    0)   4157; setCodecResolution: set to 640 x 480
+INFO    ( 8:39:22:135 |    0)   4157; Use external video source
+INFO    ( 8:39:22:135 |    0)   4157; startCapture: device? 1025 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    ( 8:39:22:136 |    1)   4157; startCapture: startCapture success
+INFO    ( 8:39:22:137 |    1)   4157; EnableLowBitRateStream: dual streams enabled 0
+INFO    ( 8:39:22:137 |    0)   4157; RequestEncodeKeyFrame
+INFO    ( 8:39:22:137 |    0)   4157; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 8:39:22:137 |    0)   4157; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 8:39:22:137 |    0)   4157; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 8:39:22:137 |    0)   4157; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 8:39:22:137 |    0)   4157; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+INFO    ( 8:39:22:137 |    0)   4157; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 8:39:22:137 |    0)   4157; stopInvisibleRenderers: user 0 is invisible, stop rendering
+INFO    ( 8:39:22:137 |    0)   4157; stopLocalRender: Cannot stop renderer 4097 (not exist)
+INFO    ( 8:39:22:137 |    0)   4157; doStartLocalRender: init? 1 capture id 4097 device 1025 capturing? 1 rendering? 0
+ERROR   ( 8:39:22:137 |    0)   4157; doStartLocalRender: cannot start Local Render with nil view 0x0 3
+ERROR   ( 8:39:22:137 |    0)   4157; [che] Unable to start render local video, res=-1
+INFO    ( 8:39:22:137 |    0)   4157; [che] start call returns -1, elapsed 230
+ERROR   ( 8:39:22:137 |    0)   4157; [che] error calling startCall()
+INFO    ( 8:39:22:137 |    0)   4157; join channel success: cname '653495b6-cf6b-468b-9d7d-8fb7eba1e264' uid 10341022 elapsed 488
+INFO    ( 8:39:22:137 |    0)   4156; [AudioRoute] reset audio routing, default routing: Speakerphone, current routing: Default, target routing: Speakerphone, actual system routing: Speakerphone
+INFO    ( 8:39:22:137 |    0)   4156; [AudioRoute] set audio output routing from Default to Speakerphone
+INFO    ( 8:39:22:137 |    0)   4544; Thread with name:ViECaptureThread started 
+INFO    ( 8:39:22:138 |    1)   4157; [vocs/u] **responsed from 183.236.26.162:8000, 3 vos, elapsed 488, server ts 1513517962511, wan ip 71.241.215.78
+INFO    ( 8:39:22:138 |    0)   4157; [vos] added server: 69.172.244.37:4001
+INFO    ( 8:39:22:138 |    0)   4157; [vos] added server: 107.155.14.139:4007
+INFO    ( 8:39:22:138 |    0)   4157; [vos] added server: 23.236.120.143:4003
+INFO    ( 8:39:22:138 |    0)   4157; [vocs/u] **responsed from 221.228.202.134:8000, 3 vos, elapsed 489, server ts 1513517962620, wan ip 71.241.215.78
+INFO    ( 8:39:22:139 |    1)   4157; [vos] added server: 107.151.160.28:4010
+INFO    ( 8:39:22:139 |    0)   4157; [vos] added server: 107.155.14.131:4003
+INFO    ( 8:39:22:139 |    0)   4157; [vos] added server: 23.236.120.143:4004
+INFO    ( 8:39:22:140 |    1)   4156; [AudioRoute] audio routing changed to Speakerphone
+INFO    ( 8:39:22:140 |    0)   4156; [AudioRoute] Monitor start: default routing: Speakerphone, current routing: Speakerphone
+INFO    ( 8:39:22:140 |    0)   4157; [rp] {"che.audio.output.routing":3}
+INFO    ( 8:39:22:140 |    0)   4157; SetHowlingControl enable = 1
+INFO    ( 8:39:22:141 |    1)   4157; Application Config module:  Route 3, NS on, AEC C, AGC on, BSS off, HC on
+INFO    ( 8:39:22:141 |    0)   4157; MID = 69, Routing = 3
+INFO    ( 8:39:22:180 |   39)   4157; [ch0] rtt: 42
+INFO    ( 8:39:22:325 |  145)   4157; onFirstLocalAudioFrame codec 85 elapsed 675
+INFO    ( 8:39:23:747 |  422)   4157; [rp] {"rtc.video.preview":false}
+ERROR   ( 8:39:23:747 |    0)   4157; API call failed to stop video preview due to not in idle mode
+INFO    ( 8:39:23:758 |   11)   3636; [AudioRoute] Monitor stopped
+INFO    ( 8:39:23:758 |    0)   3636; API call to leave channel
+INFO    ( 8:39:23:759 |    1)   4157; [cm] emit leave channel signal
+INFO    ( 8:39:24: 81 |    0)   4157; stopLocalRender: Cannot stop renderer 4097 (not exist)
+WARN    ( 8:39:24: 81 |    0)   4157; DeregisterFrameCallback 0x0xb7e881a4 not found
+INFO    ( 8:39:24: 81 |    0)   4544; Thread with name:ViECaptureThread stopped
+INFO    ( 8:39:24: 91 |   10)   4157; stopCapture: stopCapture success
+INFO    ( 8:39:24: 91 |    0)   4157; stopRemoteRender
+INFO    ( 8:39:24: 91 |    0)   4157; [che] stopCall begins
+INFO    ( 8:39:24:126 |   35)   4157; StopRecording complete
+INFO    ( 8:39:24:131 |    5)   4157; StopPlayout complete
+INFO    ( 8:39:24:131 |    0)   4157; [JNI] audioMode is set to 0
+INFO    ( 8:39:24:261 |  130)   4157; [che] stop call returns 0, elapsed 169
+INFO    ( 8:39:24:261 |    0)   4157; [rs] **report stats: seq: 19, report list size 19, tx/rx: 6467/912, cache size: 0, report success rate: 0
+INFO    ( 8:39:24:262 |    1)   4157; **CALL STATS: duration 2s, tx 20.279K bytes, rx 2.694K bytes, total 22.973K bytes
+INFO    ( 8:39:24:262 |    0)   4157; CacheManager: save cache to storage elapsed 1
+INFO    ( 8:39:24:263 |    1)   4157; [ch0] vos destroyed
+INFO    ( 8:39:24:263 |    0)   4157; delRef of media engine, ref=0
+INFO    ( 8:39:24:263 |    0)   4157; [che] chat engine destroying
+INFO    ( 8:39:24:263 |    0)   4157; stopLocalRender: Cannot stop renderer -1 (not exist)
+WARN    ( 8:39:24:263 |    0)   4157; stopCapture: VideoEngine haven't startCapture
+INFO    ( 8:39:24:263 |    0)   4157; stopRemoteRender
+INFO    ( 8:39:24:263 |    0)   4157; [che] stopCall begins
+INFO    ( 8:39:24:263 |    0)   4157; [che] stop call returns -1, elapsed 0
+INFO    ( 8:39:24:264 |    1)   4157; stopLocalRender: Cannot stop renderer -1 (not exist)
+INFO    ( 8:39:24:264 |    0)   4157; stopRemoteRender
+WARN    ( 8:39:24:264 |    0)   4157; stopCapture: VideoEngine haven't startCapture
+INFO    ( 8:39:24:264 |    0)   4497; Thread with name:VideoProcessThread stopped
+WARN    ( 8:39:24:274 |   10)   4157; terminate: VideoEngine haven't init
+INFO    ( 8:39:24:274 |    0)   4157; [DEBUGG] ViERenderManager Destructor, engine_id: 0
+INFO    ( 8:39:24:276 |    2)   4502; Thread with name:VideoEncodeThread stopped
+INFO    ( 8:39:24:289 |   13)   4495; Thread with name:EngineMonitorThread stopped
+INFO    ( 8:39:24:290 |    1)   4493; Thread with name:jni_audio_capture_thread stopped
+INFO    ( 8:39:24:290 |    0)   4494; Thread with name:jni_audio_render_thread stopped
+INFO    ( 8:39:24:292 |    2)   4157; SetAndroidObjects: JVM is NULL, assuming deinit
+INFO    ( 8:39:24:296 |    4)   4157; [che] chat engine destroyed
+INFO    ( 8:39:24:296 |    0)   4157; ***CALL END
+INFO    ( 8:39:24:297 |    1)   4157; [rp] {"rtc.audio.mute_me":false,"che.audio.mute_me":false}
+INFO    ( 8:39:24:298 |    1)   4157; [rp] {"rtc.video.preview":false}
+INFO    ( 8:39:24:298 |    0)   4157; API call to stop video preview
+INFO    ( 8:39:40:181 |    0)   4157; [ps] error received, versionPolicyRequest, err 14
+INFO    ( 8:39:40:184 |    3)   4157; [ps] udpate priority: 4
+INFO    ( 8:39:40:191 |    7)   4157; [ps] error received, vendorPolicyRequest, err 14
+INFO    ( 8:39:40:192 |    1)   4157; [ps] udpate priority: 3
+INFO    ( 8:39:40:192 |    0)   4157; [ps] error received, deviceIndexRequest, err 14
+INFO    ( 8:39:40:192 |    0)   4157; [ps] error received, globalPolicyRequest, err 14
+INFO    ( 8:39:40:192 |    0)   4157; [ps] udpate priority: 1
+INFO    ( 8:39:48:418 |  226)   4157; [rs] **report stats: seq: 19, report list size 19, tx/rx: 6467/1008, cache size: 0, report success rate: 100
